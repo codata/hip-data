@@ -1,0 +1,73 @@
+# baseURI: https://un.org/preventionweb/hazard
+# imports: http://purl.org/dc/terms/
+# imports: http://www.w3.org/2004/02/skos/core
+# prefix: hazard
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hazard: <https://un.org/preventionweb/hazard#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://un.org/preventionweb/hazard>
+  a owl:Ontology ;
+  dcterms:created "2020-07-29"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:description "Example of how to encode a term from PreventionWeb using SKOS" ;
+  dcterms:source <https://www.preventionweb.net/terminology> ;
+  owl:imports dcterms: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+<https://www.preventionweb.net/go/488>
+  a skos:Concept ;
+  dcterms:created "2017-02-02"^^xsd:date ;
+  dcterms:source "UNITED NATIONS OFFICE FOR DISASTER RISK REDUCTION (UNDRR)" ;
+  rdfs:comment """Hazards may be natural, anthropogenic or socionatural in origin. 
+Natural hazards are predominantly associated with natural processes and phenomena. 
+Anthropogenic hazards, or human-induced hazards, are induced entirely or predominantly by human activities and choices. 
+This term does not include the occurrence or risk of armed conflicts and other situations of social instability or tension which are subject to international humanitarian law and national legislation. 
+Several hazards are socionatural, in that they are associated with a combination of natural and anthropogenic factors, including environmental degradation and climate change.
+
+Hazards may be single, sequential or combined in their origin and effects. 
+Each hazard is characterized by its location, intensity or magnitude, frequency and probability. 
+Biological hazards are also defined by their infectiousness or toxicity, or other characteristics of the pathogen such as dose-response, incubation period, case fatality rate and estimation of the pathogen for transmission.
+
+Multi-hazard means (1) the selection of multiple major hazards that the country faces, and (2) the specific contexts where hazardous events may occur simultaneously, cascadingly or cumulatively over time, and taking into account the potential interrelated effects.
+
+Hazards include (as mentioned in the Sendai Framework for Disaster Risk Reduction 2015-2030, and listed in alphabetical order) biological, environmental, geological, hydrometeorological and technological processes and phenomena."""@en ;
+  rdfs:label "Hazard" ;
+  skos:definition "A process, phenomenon or human activity that may cause loss of life, injury or other health impacts, property damage, social and economic disruption or environmental degradation."@en ;
+  skos:narrower <https://www.preventionweb.net/go/488/bio> ;
+  skos:narrower <https://www.preventionweb.net/go/488/env> ;
+  skos:narrower <https://www.preventionweb.net/go/488/geo> ;
+  skos:narrower <https://www.preventionweb.net/go/488/hyd> ;
+  skos:narrower <https://www.preventionweb.net/go/488/tec> ;
+  skos:prefLabel "Hazard"@en ;
+.
+<https://www.preventionweb.net/go/488/bio>
+  a skos:Concept ;
+  skos:definition "Biological hazards are of organic origin or conveyed by biological vectors, including pathogenic microorganisms, toxins and bioactive substances. Examples are bacteria, viruses or parasites, as well as venomous wildlife and insects, poisonous plants and mosquitoes carrying disease-causing agents."@en ;
+  skos:prefLabel "Biological hazard"@en ;
+.
+<https://www.preventionweb.net/go/488/env>
+  a skos:Concept ;
+  skos:definition "Environmental hazards may include chemical, natural and biological hazards. They can be created by environmental degradation or physical or chemical pollution in the air, water and soil. However, many of the processes and phenomena that fall into this category may be termed drivers of hazard and risk rather than hazards in themselves, such as soil degradation, deforestation, loss of biodiversity, salinization and sea-level rise."@en ;
+  skos:prefLabel "Environmental hazard"@en ;
+.
+<https://www.preventionweb.net/go/488/geo>
+  a skos:Concept ;
+  skos:definition "Geological or geophysical hazards originate from internal earth processes. Examples are earthquakes, volcanic activity and emissions, and related geophysical processes such as mass movements, landslides, rockslides, surface collapses and debris or mud flows. Hydrometeorological factors are important contributors to some of these processes. Tsunamis are difficult to categorize: although they are triggered by undersea earthquakes and other geological events, they essentially become an oceanic process that is manifested as a coastal water-related hazard."@en ;
+  skos:prefLabel "Geological or geophysical hazard"@en ;
+.
+<https://www.preventionweb.net/go/488/hyd>
+  a skos:Concept ;
+  skos:definition "Hydrometeorological hazards are of atmospheric, hydrological or oceanographic origin. Examples are tropical cyclones (also known as typhoons and hurricanes); floods, including flash floods; drought; heatwaves and cold spells; and coastal storm surges. Hydrometeorological conditions may also be a factor in other hazards such as landslides, wildland fires, locust plagues, epidemics and in the transport and dispersal of toxic substances and volcanic eruption material."@en ;
+  skos:prefLabel "Hydrometeorological hazard"@en ;
+.
+<https://www.preventionweb.net/go/488/tec>
+  a skos:Concept ;
+  skos:definition "Technological hazards originate from technological or industrial conditions, dangerous procedures, infrastructure failures or specific human activities. Examples include industrial pollution, nuclear radiation, toxic wastes, dam failures, transport accidents, factory explosions, fires and chemical spills. Technological hazards also may arise directly as a result of the impacts of a natural hazard event."@en ;
+  skos:prefLabel "Technological hazard"@en ;
+.
