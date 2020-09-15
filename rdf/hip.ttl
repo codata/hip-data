@@ -1,0 +1,481 @@
+# baseURI: https://codata.org/def/hip
+# imports: https://codata.org/ont/hip
+# imports: http://purl.org/dc/terms/
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://www.w3.org/ns/dcat
+# imports: http://xmlns.com/foaf/0.1/
+
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hip: <https://codata.org/def/hip/> .
+@prefix hipo: <https://codata.org/ont/hip#> .
+@prefix hipp: <https://codata.org/cms/hip/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+## HIPs, Types and Clusters ##
+
+hip:_arsenic
+  a hipo:Provenance ;
+  dcterms:creator hipp:lidia-mayner ;
+  dcterms:creator hipp:virginia-murray ;
+  owl:versionInfo """4.0 Reviewed and updates
+3.0 Lidia Mayner reviewed and updated 11 November 2019
+2.0 Lidia Mayer reviewed and updated 18 October 2019
+1.0 Lidia Mayer 6 August 2019, Virginia Murray reviewed 7 August 2019""" ;
+  skos:editorialNote """Version: 
+4.0 Reviewed and updates
+3.0 Lidia Mayner reviewed and updated 11 November 2019
+2.0 Lidia Mayer reviewed and updated 18 October 2019
+1.0 Lidia Mayer 6 August 2019, Virginia Murray reviewed 7 August 2019
+
+Initial Review: 
+Contact Email: Virginia.Murray@phe.gov.uk 
+
+External reviewers include John Duffus, Mike Schwenk, IUTOX, Daniel Vallero
+
+FINAL Virginia Murray 3 September 2020""" ;
+  foaf:primaryTopic hip:arsenic ;
+.
+hip:_asbestos
+  a hipo:Provenance ;
+  owl:versionInfo """3.0 Lidia Mayner 11 November 2019, Virginia Murray 13 November 2019
+2.0 Lidia Mayner reviewed 17 October 2019.
+1.0 Lidia Mayner 6 August 2019, Virginia Murray reviewed 7 August 2019""" ;
+  skos:editorialNote """Version: 
+3.0 Lidia Mayner 11 November 2019, Virginia Murray 13 November 2019
+2.0 Lidia Mayner reviewed 17 October 2019.
+1.0 Lidia Mayner 6 August 2019, Virginia Murray reviewed 7 August 2019
+
+Initial Review: Approved for external review: YES Virginia Murray 13 November 2019
+
+External reviews include Hannes Kern, IUTOX, John Duffus, Mike Schwenk
+
+Final Virginia Murray 3 September 2020
+""" ;
+  foaf:primaryTopic hip:asbestos ;
+.
+hip:_avalanche
+  a hipo:Provenance ;
+  dcterms:creator hipp:geunhye-kim ;
+  dcterms:creator hipp:james-douris ;
+  owl:versionInfo "Version: v1.0 19th November 2019" ;
+  skos:editorialNote """Version: v1.0 19th November 2019
+Initial Review: """ ;
+  dcat:contactPoint <mailto:gekim@wmo.int> ;
+  dcat:contactPoint <mailto:jdouris@wmo.int> ;
+  foaf:primaryTopic hip:avalanche ;
+.
+hip:_hepatitis-b
+  a hipo:Provenance ;
+  dcterms:creator hipp:natalie-wright ;
+  dcterms:creator hipp:robert-verrecchia ;
+  owl:versionInfo "V3.0 18 February 2020; V2.0 20 November 2019; V1.0 15 August 2019" ;
+  skos:editorialNote """Final version: Natalie Wright, Virginia Murray, Feb 2020
+Peer review: Fuqiang Cui, WHO, Dec 2019, David Heymann Dec 2019
+V3.0 18 February 2020; V2.0 20 November 2019; V1.0 15 August 2019
+Initial Review: approved for external review: yes""" ;
+  dcat:contactPoint <mailto:natalie.wright@phe.gov.uk> ;
+  foaf:primaryTopic hip:hepatitis-b ;
+.
+hip:_pandemic-influenza
+  a hipo:Provenance ;
+  dcterms:creator hipp:chloe-sellwood ;
+  owl:versionInfo "Version: 02. (01 March 2020)" ;
+  skos:editorialNote """Final version: Natalie Wright, Virginia Murray, March 2020
+Peer review: Wenqing Zhang, WHO, Feb 2020
+Version: 02. (01 March 2020)
+Initial Review: approved for external review: external reviewers comments accepted/ incorporated""" ;
+  foaf:primaryTopic hip:pandemic-influenza ;
+.
+hip:_wind
+  a hipo:Provenance ;
+  dcterms:creator hipp:geunhye-kim ;
+  dcterms:creator hipp:james-douris ;
+  owl:versionInfo "v1.0 25th November 2019" ;
+  skos:editorialNote """Version: v1.0 25th November 2019
+Initial Review: """ ;
+  dcat:contactPoint <mailto:gekim@wmo.int> ;
+  dcat:contactPoint <mailto:jdouris@wmo.int> ;
+  foaf:primaryTopic hip:wind ;
+.
+hip:arsenic
+  a skos:Concept ;
+  a hipo:HIP ;
+  dcterms:modified "2020-09-03"^^xsd:date ;
+  dcterms:source "World Health Organization (2019). Preventing disease through healthy environments: Exposure to arsenic: A major public health concern. Available at apps.who.int/iris/bitstream/handle/10665/329482/WHO-CED-PHE-EPE-19.4.1-eng.pdf?ua=1. Accessed 21 November 2019." ;
+  rdfs:label "ARSENIC" ;
+  skos:definition "Arsenic is widely distributed throughout the Earth’s crust, generally as arsenic sulphide or as metal arsenates and arsenides. Human exposure to arsenic compounds represents a major public health concern as it has been associated with a range of acute and long-term adverse health effects and diseases (World Health Organization 2019)." ;
+  skos:prefLabel "ARSENIC"@en ;
+  hipo:additional-description """Arsenic (symbol As, atomic number 33) can be released into the atmosphere and water in the following ways: 
+•	natural activities, such as volcanic activity, dissolution or desorption of minerals (particularly into groundwater), exudates from vegetation and wind-blown dusts; 
+•	human activities, such as metal smelting, combustion of fossil fuels (especially coal), mining, timber treatment with preservatives, and, historically, agricultural pesticide production and use; 
+•	remobilization of historic sources, such as mine drainage water; and 
+•	mobilization into drinking-water from geological deposits by drilling of tube wells (World Health Organization 2019).
+
+In water, arsenic occurs in one of two main forms: arsenite As(III) under reducing conditions and arsenate As(V) if the water is oxygenated. It can be released to the atmosphere, primarily as the trioxide, mainly by high-temperature processes or through volatilization from aerated soils. In the atmosphere, it is mainly adsorbed on particles, which are dispersed by winds and deposited on land and water (World Health Organization 2019).
+
+Soluble inorganic arsenic is highly acutely toxic. Intake of inorganic arsenic over a long period can lead to chronic arsenic poisoning (arsenicosis). Effects, which can take years to develop depending on the level of exposure, include skin lesions, peripheral neuropathy, gastrointestinal symptoms, diabetes, cardiovascular disease, developmental toxicity, and cancer of the skin and internal organs (IARC . Organic arsenic compounds, which are abundant in seafood, are less harmful to health and are rapidly eliminated by the body.
+
+Human exposure to arsenic and arsenic compounds can occur through environmental or occupational routes. Human exposure to elevated levels of inorganic arsenic occurs mainly through the consumption of groundwater containing naturally high levels of inorganic arsenic, food prepared with this water, and food crops irrigated with high-arsenic water sources. Public health actions need to be continued to reduce human exposure to arsenic, particularly in areas with naturally high levels in groundwater (World Health Organization 2019).""" ;
+  hipo:convention-treaty """•	International Health Regulations
+•	International Labour Organization C042 - Workmen's Compensation (Occupational Diseases) Convention (Revised), 1934 (No. 42) Available at www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C042. Accessed on 21 November 2019.""" ;
+  hipo:coordinator <https://www.who.int/> ;
+  hipo:drivers-outcomes-risk-management """WHO (2019) reports that arsenic is hazardous in the following ways:
+•	Drinking-water - Drinking-water poses the greatest threat to public health from arsenic (World Health Organization 2019).  
+•	Industrial processes - Most arsenic in industrial processes is used to produce antifungal wood preservatives, which can lead to soil contamination. Other current or historical uses include in the pharmaceutical and glass industries, in the manufacture of alloys, sheep dips, leather preservatives, arsenic-containing pigments, antifouling paints and poison baits and, to a diminishing extent, in the production of agrochemicals (especially for use in orchards and vineyards). Arsenic compounds are also employed in limited amounts in the microelectronics and optical industries. High arsenic levels in air can be found in the working environment as well as the general environment around non-ferrous metal smelters, where arsenic trioxide may be formed, and some coal-fired power plants (especially those using low-grade brown coal) (World Health Organization 2019).
+•	Food - In areas where arsenic is not naturally present at high levels, food usually contributes most to the daily intake of arsenic. Fish, shellfish, meat, poultry, dairy products and cereals are the main sources of dietary intake. However, the arsenic in fish and shellfish is usually in the form of organic compounds (e.g. arsenobetaine) that are of low toxicity. In areas where arsenic is naturally present at high levels, food (e.g. rice) prepared with high arsenic-containing water and food crops irrigated with contaminated water also contribute to total daily intake (World Health Organization 2019).
+•	Smoking - Exposure of smokers to arsenic arises from the natural inorganic arsenic content of tobacco. Exposures were higher in the past when tobacco plants were treated with lead arsenate insecticide (World Health Organization 2019).
+
+Long-term actions are required to reduce exposure to arsenic from mining, metal smelting and refining, combustion of low-grade coal, pesticide use and timber treatment. In particular, action is needed to reduce the intake of arsenic from drinking-water and food in areas with naturally high levels in the groundwater (World Health Organization 2019).
+
+The WHO factsheet on Preventing disease through healthy environments - exposure to arsenic: a major public health concern (World Health Organization 2019) includes the following risk mitigation recommendations: 
+ 
+•	Make available drinking-water with arsenic concentrations below the WHO provisional drinking-water guideline value of 10 μg/L in areas where the level is higher. Possible measures include: 
+o	testing water for arsenic levels and informing users of the results; 
+o	installing arsenic removal systems, either centralized or domestic, and ensuring appropriate disposal of the removed arsenic; 
+o	substituting high-arsenic sources, such as groundwater, with low-arsenic, microbiologically safe sources such as rainwater and treated surface water. Low-arsenic water can be used for drinking, cooking and irrigation purposes, whereas high-arsenic water can be used for other purposes such as bathing and washing clothes; 
+o	discriminating between high-arsenic and low-arsenic sources by testing water for arsenic levels and painting tube wells or hand pumps different colours (e.g. red and green); and 
+o	blending low-arsenic water with higher-arsenic water to achieve an acceptable arsenic concentration level. 
+•	Reduce occupational exposure to arsenic and its compounds. 
+•	Make both the general public and the health sector aware of the harmful effects of high arsenic intake and the sources of exposure (including use of high-arsenic water for crops irrigation or food preparation) and how to avoid these sources. 
+•	Monitor high-risk populations for early signs of arsenic poisoning, usually skin problems. It should be noted that total urinary arsenic does not differentiate between inorganic arsenic, which is toxic, and organic arsenic, some of which is not. Where possible, arsenic speciation should be attempted in order to differentiate these two forms (and their metabolites). 
+•	The WHO/UNICEF Joint Monitoring Programme for Water Supply, Sanitation and Hygiene monitors progress towards global targets on drinking-water. Under the new 2030 Agenda for Sustainable Development, the indicator of “safely managed drinking water services” calls for tracking the population accessing drinking-water that is free of faecal contamination and priority chemical contaminants, including arsenic. """ ;
+  hipo:metrics """In 2002, WHO (2019) reported that  it was estimated that at least 140 million people in 50 countries have been drinking water containing arsenic at levels above the WHO provisional guideline value of 10 μg/L.3 Inorganic arsenic is naturally present at high levels in the groundwater of a number of countries, such as Argentina, Chile, China, India (West Bengal), Mexico, the United States of America, and particularly Bangladesh, where it was estimated that in 2012 approximately 19 million people were exposed to drinking-water concentrations above the national standard of 50 μg/L and 39 million people were drinking water with levels of arsenic above 10 μg/L.4 In 2010, 21.4% of all deaths in a highly affected area of Bangladesh were attributed to arsenic levels of above 10 μg/L in drinking-water,5 while another analysis published in 2012 for all districts indicated an annual total of nearly 43 000 deaths (about 5.6% of all deaths) attributable to chronic arsenic exposure (World Health Organization 2019).
+
+World Health Organization (WHO) arsenic guidelines (World Health Organization 2019):
+
+•	Tolerable intake level - In a review of the latest scientific evidence conducted in 2010, the Joint Food and Agriculture Organization of the United Nations (FAO)/WHO Expert Committee on Food Additives (JECFA) determined the lower limit on the benchmark dose for a 0.5% increased incidence of lung cancer (BMDL0.5) from epidemiological data to be 3.0 μg/kg body weight per day (2–7 μg/kg body weight per day based on the range of estimated total dietary exposure). No new tolerable intake level could be established. In areas where levels in water are below the WHO drinking-water guideline value, human health effects are unlikely. 
+•	Drinking-water - The provisional guideline value is 10 μg/L, in light of practical difficulties in removing arsenic in drinking water).2,9 Every effort should therefore be made to keep concentrations as low as reasonably possible and below the guideline when resources are available. 
+•	Air - A safe level of arsenic in air cannot be established""" ;
+  hipo:references """•	World Health Organization (2019). Preventing disease through healthy environments: Exposure to arsenic: A major public health concern. Available at apps.who.int/iris/bitstream/handle/10665/329482/WHO-CED-PHE-EPE-19.4.1-eng.pdf?ua=1. Accessed on 21 November 2019.
+•	International Labour Organization (1934). C042 - Workmen's Compensation (Occupational Diseases) Convention (Revised), 1934 (No. 42). Available at www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C042. Accessed on 21 November 2019.
+•	International Agency for Research on Cancer (IARC) Arsenic and Arsenic Compounds  : https://monographs.iarc.fr/wp-content/uploads/2018/06/mono100C-6.pdf  Accessed on 3 September 2020""" ;
+.
+hip:asbestos
+  a skos:Concept ;
+  a hipo:HIP ;
+  dcterms:modified "2020-09-03"^^xsd:date ;
+  dcterms:source "World Health Organization (Date unknown). International Programme on Chemical Safety: Asbestos Available at https://www.who.int/ipcs/assessment/public_health/asbestos/en/. Accessed 18 November 2019." ;
+  rdfs:label "Asbestos" ;
+  skos:definition "Asbestos is a group of naturally occurring minerals which was widely used in building materials and other products (WHO, Date unknown). All types of asbestos cause lung cancer, mesothelioma, cancer of the larynx and ovary, and asbestosis (fibrosis of the lungs) (World Health Organization date unknown)." ;
+  skos:note """Metrics and numeric limits:
+
+Currently, according to the World Health Organisation (WHO), about 125 million people in the world are exposed to asbestos at the workplace. In 2004, asbestos-related lung cancer, mesothelioma and asbestosis from occupational exposures resulted in 107,000 deaths and 1,523,000 Disability Adjusted Life Years (DALYs) (World Health Organization date unknown). In addition, nearly 400 deaths have been attributed to non-occupational exposure to asbestos. The burden of asbestos-related diseases is still rising, even in countries that banned the use of asbestos in the early 1990s. Because of the long latency periods attached to the diseases in question, stopping the use of asbestos now will result in a decrease in the number of asbestos-related deaths only after a number of decades (World Health Organization 2014).
+
+•	Asbestos is a proven human carcinogen (International Agency for Research on Cancer (IARC) Group 1). No safe level can be proposed for asbestos because a threshold is not known to exist. Exposure should therefore be kept as low as possible (International Agency for Research on Cancer 1998). 
+•	Air quality guidelines for Europe, 2000, (p38) shows estimates for asbestos and its health risk factors.""" ;
+  skos:prefLabel "Asbestos"@en ;
+  hipo:additional-description """Asbestos has current or historical commercial use due to its extraordinary tensile strength, poor heat conduction, and relative resistance to chemical attack. For these reasons, asbestos is used for insulation in buildings and as an ingredient in a number of products, such as roofing shingles, water supply lines, and fire blankets, as well as clutches and brake linings, gaskets, and pads for automobiles (World Health Organization date unknown).
+
+The main forms of asbestos are chrysotile (white asbestos) and crocidolite (blue asbestos). Other forms include amosite, anthophylite, tremolite and actinolite (World Health Organization date unknown).
+
+All forms of asbestos are carcinogenic to humans. Exposure to asbestos, including chrysotile, causes cancer of the lung, larynx, and ovaries, and also mesothelioma (a cancer of the pleural and peritoneal linings). Asbestos exposure is also responsible for other diseases such as asbestosis (fibrosis of the lungs), and plaques, thickening and effusion in the pleura (World Health Organization date unknown).""" ;
+  hipo:convention-treaty """•	International Labour Organization C162. Asbestos Convention, 1986 (No. 162) 
+•	Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal (1989).
+•	International Health Regulations (2005)""" ;
+  hipo:coordinator <https://www.who.int/> ;
+  hipo:coordinator <https://www.who.int/health-topics/chemical-safety> ;
+  hipo:drivers-outcomes-risk-management """In many disaster-prone areas, asbestos cement is widely used as a building material and when the material corrodes due to aging or is damaged it releases harmful asbestos fibres. Fires in buildings can release large amounts of dust and fibres from asbestos and fibreglass insulation (World Health Organization 2018).
+
+The World Health Organization (WHO), in collaboration with the International Labour Organization and other intergovernmental organizations and civil society, works with countries towards elimination of asbestos-related diseases by:
+•	recognizing that the most efficient way to eliminate asbestos-related diseases is to stop the use of all types of asbestos; 
+•	providing information about solutions for replacing asbestos with safer substitutes and developing economic and technological mechanisms to stimulate its replacement;
+•	taking measures to prevent exposure to asbestos in place and during asbestos removal (abatement); 
+•	improving early diagnosis, treatment, and rehabilitation services for asbestos-related diseases;
+•	establishing registries of people with past and/or current exposures to asbestos and organizing medical surveillance of exposed workers; and
+•	providing information on the hazards associated with asbestos-containing materials and products, and by raising awareness that waste containing asbestos should be treated as hazardous waste (World Health Organization date unknown).
+
+Cost-effective interventions for prevention of occupational lung diseases from exposure to asbestos are among the policy options for implementing the \"Global Action Plan for the Prevention and Control of Noncommunicable Diseases\" (2013-2020), as endorsed by the Sixty-sixth World Health Assembly in resolution WHA66.10 in 2013 (World Health Organization 2013).""" ;
+  hipo:references """•	World Health Organization (Date unknown). International Programme on Chemical Safety: Asbestos Available at www.who.int/ipcs/assessment/public_health/asbestos/en/. Accessed 18 November 2019.
+•	World Health Organization (2016). International Health Regulations (2005), 3rd edition. Available at www.who.int/ihr/publications/9789241580496/en/. Accessed on 18 November 2019.
+•	World Health Organization (2013). Global action plan for the prevention and control of noncommunicable diseases 2013-2020. Available at apps.who.int/iris/bitstream/handle/10665/94384/9789241506236_eng.pdf;jsessionid=431E06013F1E86614BB088F7CCA30759?sequence=1. Accessed 18 November 2019.
+•	World Health Organization (2014). Chrysotile asbestos. Available at apps.who.int/iris/bitstream/handle/10665/143649/9789241564816_eng.pdf?sequence=1. Accessed 18 November 2019.
+•	World Health Organization (2018). Chemical releases caused by natural hazard events and disasters: Information for public health authorities. Available at apps.who.int/iris/bitstream/handle/10665/272390/9789241513395-eng.pdf?ua=1. Accessed on 18 November 2019.
+•	World Health Organization Regional Office for Europe Copenhagen (2000). European Series, No.91: Air quality guidelines for Europe, 2nd ed. Available at www.euro.who.int/__data/assets/pdf_file/0005/74732/E71922.pdf?ua=1. Accessed 18 November 2019.""" ;
+.
+hip:avalanche
+  a skos:Concept ;
+  a hipo:HIP ;
+  dcterms:modified "2019-11-19" ;
+  dcterms:source "WMO (1992) International Meteorological Vocabulary, WMO-No. 182. Available at https://library.wmo.int/doc_num.php?explnum_id=4712 Accessed on 18 November 2019." ;
+  rdfs:label "Avalanche" ;
+  skos:definition "Mass of snow and ice falling suddenly down a mountain slope and often taking with it earth, rocks and rubble of every description." ;
+  skos:prefLabel "Avalanche"@en ;
+  hipo:additional-description "An avalanche is a rapid flow of snow down a hill or mountainside. Although avalanches can occur on any slope given the right conditions, certain times of the year and certain locations are naturally more dangerous than others. Wintertime, particularly from December to April, is when most avalanches tend to happen. (U.S. National Snow and Ice Data Center, 2019)" ;
+  hipo:convention-treaty "European Avalanche Warning Services (EAWS) – 29 avalanche warning services from 16 countries. (https://www.avalanches.org/)" ;
+  hipo:coordinator <https://wmo.int> ;
+  hipo:drivers-outcomes-risk-management """Contributing factors
+
+Some simple rules that can be applied when assessing the avalanche danger:
+
+•	Fresh snow + wind = avalanche danger
+•	Rapid and significant warming of the snow to 0 ° = short-term increase in avalanche danger
+•	The steeper and shadier the slope, the greater the danger.
+
+Avalanche protection and control measures 
+
+1. Artificial avalanche triggering
+
+By way of controlled explosions, the practice aims temporarily to safeguard possible starting zones, avalanche paths and deposition zones, and to prevent large avalanches and lengthy closures.
+
+2. Structural avalanche protection (dam or snow shed)
+
+Defensive structures prevent the formation of avalanches. In other circumstances, when an avalanche is released, it can be diverted or intercepted by a dam. Other means of protection against avalanches include physical structures for buildings and snow sheds.  In order to stop an avalanche completely, depending on its speed, a dam may need to be more than 20 m tall. Many dams have a dual function: they protect against avalanches in wintertime, and against flooding and debris flows once the snow has melted. Snow sheds are known as avalanche galleries or tunnels, snow sheds are the classic structures for protecting transportation routes. Among the typical measures for protecting buildings are wall reinforcement, the erection of a solid structure (Spaltkeil), rather like a log splitting wedge, to break the avalanche, and a building design (Ebenhöch) in which the roof seamlessly merges with the terrain or an embankment.
+
+(WSL Institute for Snow Avalanche Research SLF, 2019, link: https://www.wsl.ch/en/about-wsl/locations/slf-davos.html )""" ;
+  hipo:metrics """•	Loose snow avalanches
+
+Loose snow avalanches start from a single point and form when snow is not well bonded. A loose snow avalanche consisting of dry powder generally requires a slope angle of 40°. In very steep terrain, as individual snow particles become loose, roll downwards and bump into more particles, they form an inverted-V-shaped avalanche. Because avalanches usually carry less snow and travel more slowly than slab avalanches, they are also less dangerous.
+
+•	Slab avalanches
+
+Slab avalanches can only form when the snowpack comprises multiple layers of snow. Slab avalanches are characterised by the simultaneous release of a cohesive snow layer (slab). Steeper than around 30°, slab avalanches are usually bigger (a typical skier avalanche is on average 50 m wide, 150-200 m long and 50 cm thick) and reach speeds of 50-100 km/h. 
+
+•	Gliding avalanche 
+
+Like slab avalanches, gliding avalanches have a distinct, broad fracture line, but they differ in as much as the entire snowpack is released. The slope must be sufficiently steep, but gliding can occur at a slope angle of just 15°. They can occur only on a smooth substrata, typically consisting of flattened grass or slabs of rock.
+
+•	Powder avalanche
+
+Powder avalanches arise mostly from slab avalanches. A powder cloud forms in the presence of a large altitude difference when a sufficient quantity of snow becomes suspended in the air. Powder avalanches can reach a speed of 300 km/h and cause tremendous damage. 
+
+•	Wet-snow avalanches 
+
+Wet-snow avalanches are usually triggered naturally, most often by a big increase in temperature. Meltwater or occasionally rainwater penetrating the snowpack weakens the bonds between the snow crystals, thereby destabilising layers in which the water accumulates. Both loose snow avalanches and slab avalanches can consist of wet snow.
+
+(WSL Institute for Snow Avalanche Research SLF, 2019)""" ;
+  hipo:references """•	U.S. National Snow and Ice Data Center (2019) All about snow. Available at https://nsidc.org/cryosphere/snow/science/avalanches.html. Accessed on 18 November 2019 
+•	WSL Institute for Snow Avalanche Research SLF (2019) Avalanche Protection. Available at https://www.slf.ch/en/avalanches/avalanche-protection.html. Accessed on 18 November 2019
+•	WSL Institute for Snow Avalanche Research SLF (2019) Avalanche Formation. Available at https://www.slf.ch/en/avalanches/avalanche-formation.html. Accessed on 18 November 2019""" ;
+.
+hip:biological
+  a hipo:Type ;
+  rdfs:label "BIOLOGICAL" ;
+  skos:member hip:infectious-human-animal ;
+  skos:prefLabel "BIOLOGICAL"@en ;
+.
+hip:chemical
+  a hipo:Type ;
+  rdfs:label "CHEMICAL" ;
+  skos:member hip:heavy-metals ;
+  skos:member hip:other-chemical ;
+  skos:prefLabel "CHEMICAL"@en ;
+.
+hip:geohazard
+  a hipo:Type ;
+  rdfs:label "GEOHAZARD" ;
+  skos:member hip:shallow-geohazard ;
+  skos:prefLabel "GEOHAZARD"@en ;
+.
+hip:heavy-metals
+  a hipo:Cluster ;
+  rdfs:label "Heavy Metals" ;
+  skos:member hip:arsenic ;
+  skos:prefLabel "Heavy Metals"@en ;
+.
+hip:hepatitis-b
+  a skos:Concept ;
+  a hipo:HIP ;
+  dcterms:modified "2020-02-01"^^xsd:date ;
+  dcterms:source "World Health Organization (2019a). Hepatitis B. Available at https://www.who.int/news-room/fact-sheets/detail/hepatitis-b. Accessed 20 November 2019." ;
+  rdfs:label "HEPATITIS B" ;
+  rdfs:seeAlso <https://www.who.int/news-room/fact-sheets/detail/hepatitis-b> ;
+  skos:altLabel "acute hepatitis B" ;
+  skos:altLabel "chronic hepatitis B" ;
+  skos:altLabel "hepatitis B related cirrhosis and hepatocellular carcinoma" ;
+  skos:definition "Hepatitis B is a vaccine-preventable disease, endemic and epidemic worldwide, caused by the Hepatitis B virus (HBV). HBV can cause both acute and chronic liver disease. Chronic infection puts people at high risk of death from cirrhosis and liver cancer. (World Health Organization 2019a)."@en ;
+  skos:prefLabel "HEPATITIS B"@en ;
+  hipo:additional-description """Hepatitis B is the most serious type of viral hepatitis. In highly endemic areas, HBV, which is highly contagious, is most commonly spread from mother to child at birth (perinatal transmission), or through horizontal transmission (exposure to infected blood), especially from an infected child to an uninfected child during the first five years of life (World Health Organization 2016a).  Hepatitis B is also spread by needlestick injury, tattooing, piercing and exposure to infected blood and body fluids, such as saliva and, menstrual, vaginal, and seminal fluids. Sexual transmission of hepatitis B may occur, particularly in unvaccinated men who have sex with men and heterosexual persons with multiple sex partners or contact with sex workers (World Health Organization 2019a).
+
+The incubation period of the hepatitis B virus is 75 days on average, but can vary from 30 to 180 days.  Most people do not experience any symptoms when newly infected. However, some people have acute illness with symptoms that last several weeks, including yellowing of the skin and eyes (jaundice), dark urine, extreme fatigue, nausea, vomiting and abdominal pain. A small subset of persons with acute hepatitis can develop acute liver failure, which can lead to death (World Health Organization 2019a).
+
+In some people, the hepatitis B virus can also cause a chronic liver infection that can later develop into cirrhosis (a scarring of the liver) or hepatocellular carcinoma (liver cancer).  Infection in adulthood leads to chronic hepatitis in less than 5% of cases, whereas infection in infancy and early childhood leads to chronic hepatitis in about 95% of cases (World Health Organization 2019a).
+
+Laboratory confirmation of hepatitis B diagnosis is essential. A number of blood tests are available to diagnose and monitor people with hepatitis B. They can be used to distinguish acute and chronic infections (World Health Organization 2019a).""" ;
+  hipo:convention-treaty "The International Health Regulations (2005) (World Health Organization 2016b)." ;
+  hipo:coordinator <https://www.who.int/> ;
+  hipo:drivers-outcomes-risk-management """•	Hepatitis B is a major global health problem (World Health Organization 2018).
+•	There is still limited access to diagnosis and treatment of hepatitis B in many resource-constrained settings. In 2016, 10.5% (27 million) infected were aware of their infection. Of those diagnosed, the global treatment coverage is 16.7% (4.5 million). Many people are diagnosed only when they already have advanced liver disease (World Health Organization 2019a; World Health Organization 2019b).
+•	A safe and effective vaccine that offers 98-100% protection against hepatitis B is available and is the mainstay of prevention worldwide (World Health Organization 2019a).
+•	WHO recommends that all blood donations be tested for hepatitis B to ensure blood safety and avoid accidental transmission to people who receive blood products. (World Health Organization 2019a)
+•	For World Hepatitis Day 2019, WHO is focusing on the theme “Invest in eliminating hepatitis” to highlight the need for increased domestic and international funding to scale up hepatitis prevention, testing and treatment services, in order to achieve the 2030 elimination targets (World Health Organization 2019a).""" ;
+  hipo:metrics """The prevalence of HBV is highest in the World Health Organization (WHO) Western Pacific Region and the WHO African Region, where 6.2% and 6.1% of the adult population is infected respectively. In the WHO Eastern Mediterranean Region, the WHO South-East Asia Region and the WHO European Region, an estimated 3.3%, 2.0% and 1.6% of the general population is infected, respectively. And in the WHO Region of the Americas, 0.7% of the population is infected (World Health Organization 2017).
+
+WHO estimates that in 2015, 257 million people were living with chronic hepatitis B infection (defined as hepatitis B surface antigen positive) (World Health Organization 2019). It is estimated that about 887,000 people die each year due to consequences of hepatitis B (World Health Organization 2017).
+HBV-HIV coinfection: about 1% of persons living with HBV infection (2.7 million people) are also infected with HIV. Conversely, the global prevalence of HBV infection in HIV-infected persons is 7.4% (World Health Organization 2019a).
+
+The WHO has published surveillance standards for hepatitis B (World Health Organization date unknown).""" ;
+  hipo:references """•	World Health Organization (2019a). Hepatitis B. Available at www.who.int/news-room/fact-sheets/detail/hepatitis-b. Accessed 21 November 2019.
+•	World Health Organization. (2019b). Progress report on HIV, viral hepatitis and sexually transmitted infections 2019: accountability for the global health sector strategies, 2016–2021. Available at https://www.who.int/hiv/strategy2016-2021/progress-report-2019/en/.  Accessed 18 February 2020.
+•	World Health Organization (2018). Immunizations, vaccines and biologicals: Hepatitis B. Available at www.who.int/immunization/diseases/hepatitisB/en/. Accessed 21 November 2019.
+•	World Health Organization. (2017). Global hepatitis report 2017.  Available at: https://www.who.int/hepatitis/publications/global-hepatitis-report2017/en/.  Accessed 18 February 2020.
+•	World Health Organization. (‎2016a). Technical considerations and case definitions to improve surveillance for viral hepatitis: technical report. World Health Organization. https://apps.who.int/iris/handle/10665/204501.  Accessed 18 February 2020
+•	World Health Organization (2016b). International health regulations (2005), 3rd edition. Available at www.who.int/ihr/publications/9789241580496/en/. Accessed 21 November 2019.  
+•	World Health Organization. (date unknown). Immunizations, vaccines and biologicals: WHO-recommended surveillance standard of acute viral hepatitis. Available at www.who.int/immunization/monitoring_surveillance/burden/vpd/surveillance_type/passive/hepatitis_standards/en/. Accessed 21 November 2019.""" ;
+.
+hip:infectious-human-animal
+  a hipo:Cluster ;
+  rdfs:label "Infectious Diseases (human and animal)" ;
+  skos:member hip:hepatitis-b ;
+  skos:member hip:pandemic-influenza ;
+  skos:prefLabel "Infectious Diseases (human and animal)"@en ;
+.
+hip:met-hydro
+  a hipo:Type ;
+  rdfs:label "METEOROLOGICAL and HYDROLOGICAL" ;
+  skos:member hip:terrestrial ;
+  skos:member hip:wind-related ;
+  skos:prefLabel "METEOROLOGICAL and HYDROLOGICAL"@en ;
+.
+hip:other-chemical
+  a hipo:Cluster ;
+  rdfs:label "Other chemical" ;
+  skos:member hip:asbestos ;
+  skos:prefLabel "Other chemical"@en ;
+.
+hip:pandemic-influenza
+  a skos:Concept ;
+  a hipo:HIP ;
+  dcterms:modified "2020-03-01"^^xsd:date ;
+  dcterms:source "World Health Organization (2019). Pandemic Influenza. Available at http://www.euro.who.int/en/health-topics/communicable-diseases/influenza/pandemic-influenza. Accessed on 19 November 2019." ;
+  rdfs:label "PANDEMIC INFLUENZA" ;
+  rdfs:seeAlso <http://www.euro.who.int/en/health-topics/communicable-diseases/influenza/pandemic-influenza> ;
+  skos:altLabel "pan flu" ;
+  skos:definition "An influenza pandemic is a global epidemic caused by a new influenza virus to which there is little or no pre-existing immunity in the human population (World Health Organization 2019)."@en ;
+  skos:prefLabel "PANDEMIC INFLUENZA"@en ;
+  hipo:additional-description """The constant evolving nature of influenza virus makes influenza among the top few infectious hazards with significant impact. There will be another influenza pandemic. A pandemic occurs when an influenza virus emerges to which there is little or no immunity in the global human population and which can transmit efficiently among people. The pandemic virus can be a virus strain jumping directly from animals or reassorted from animal viruses with or without human seasonal viruses.
+
+Three influenza pandemics occurred at intervals of several decades during the 20th century, the most severe of which was the so-called ‘Spanish Flu’ (caused by an A(H1N1) virus), estimated to have caused 20–50 million deaths in 1918–19. Milder pandemics occurred subsequently in 1957–58 (the ‘Asian Flu’ caused by an A(H2N2) virus) and in 1968 (the ‘Hong Kong Flu’ caused by an A(H3N2) virus), which were estimated to have caused 1–4 million deaths each. The most recent pandemic was caused by the A(H1N1) virus in 2009.
+
+The current status of knowledge and technology means that prediction of the next influenza pandemic – when, where, which virus strain, how severe – is impossible. Consequently, pandemic vaccines cannot be developed before the pandemic virus emerges. Innovative research (e.g. at www.who.int/influenza/resources/research/en/) is key to inform and advance pandemic influenza preparedness. Meanwhile, global influenza surveillance, through the WHO Global Influenza Surveillance and Response System (GISRS), timely sharing or viruses and associated information, and national capacity building via seasonal influenza programs are critical to mitigate the impact of inevitable next pandemic.""" ;
+  hipo:convention-treaty "•	International Health Regulations (2005). (World Health Organization 2016)." ;
+  hipo:coordinator <https://www.who.int/> ;
+  hipo:drivers-outcomes-risk-management """•	Influenza pandemics, whether mild, moderate or severe, affect a large proportion of the population, which puts significant strains on health and other essential services and may result in significant economic losses (World Health Organization Europe 2019).
+•	Timely detection, characterization and sharing of the pandemic virus impacts directly the outcome of all downstream response. The WHO Global Influenza Surveillance and Response System (GISRS) is the foundation of such operation. 
+•	In an influenza pandemic, the virus is likely to spread rapidly. Rapid development, production and deployment of vaccines is critical to limit the potential impact on populations and essential services (World Health Organization 2019).
+•	Access to the appropriate vaccine in the early phases of a pandemic is greatly influenced by global production capacity and the lead-time required to produce influenza vaccines (World Health Organization 2019).
+•	As an influenza pandemic may last months or even years, it may require a sustained response in the health sector but also in other sectors providing essential services, such as energy and food production (World Health Organization 2019).""" ;
+  hipo:metrics "The most recent pandemic occurred in 2009 and was caused by an influenza A (H1N1) virus. It is estimated to have caused between 100,000 and 400,000 deaths globally in the first year alone. Children and young adults were disproportionately affected in comparison to seasonal influenza, which causes severe disease mainly in the elderly, persons with chronic conditions and pregnant women (World Health Organization Europe 2019)." ;
+  hipo:references """•	World Health Organization (2016). International Health Regulations (2005), 3rd ed. Available at www.who.int/ihr/publications/9789241580496/en/. Accessed on 19 November 2019.
+•	World Health Organization (2017). How can I avoid getting the flu? Available at: www.who.int/features/qa/seasonal-influenza/en/. Accessed on 19 November 2019.
+•	World Health Organization (2019). Pandemic Influenza Preparedness. Available at www.who.int/influenza/preparedness/en/. Accessed on 19 November 2019.
+•	World Health Organization (2019). Pandemic Influenza. Available at www.euro.who.int/en/health-topics/communicable-diseases/influenza/pandemic-influenza. Accessed on 19 November 2019.""" ;
+.
+hip:shallow-geohazard
+  a hipo:Cluster ;
+  rdfs:label "Shallow geohazard" ;
+  skos:member hip:avalanche ;
+  skos:prefLabel "Shallow geohazard"@en ;
+.
+hip:terrestrial
+  a hipo:Cluster ;
+  rdfs:label "Terrestrial" ;
+  skos:member hip:avalanche ;
+  skos:prefLabel "Terrestrial"@en ;
+.
+hip:wind
+  a skos:Concept ;
+  a hipo:HIP ;
+  dcterms:modified "2019-11-25" ;
+  dcterms:source "REFERENCE(S): WMO (1992) International Meteorological Vocabulary, WMO-No. 182. Available at https://library.wmo.int/doc_num.php?explnum_id=4712 Accessed on 25 November 2019. " ;
+  rdfs:label "Wind" ;
+  skos:definition "Air motion relative to the Earth's surface. Unless otherwise specified, only the horizontal component is considered." ;
+  skos:prefLabel "Wind"@en ;
+  hipo:additional-description "A three-dimensional vector quantity with small-scale random fluctuations in space and time superimposed upon a larger-scale organized flow. It is considered in this form in relation to, for example, airborne pollution and the landing of aircraft. For the purpose of the present Guide, however, surface wind will be considered mainly as a two-dimensional vector quantity specified by two numbers representing direction and speed. The extent to which wind is characterized by rapid fluctuations is referred to as gustiness, and single fluctuations are called gusts. (WMO 2008)" ;
+  hipo:coordinator <https://wmo.int> ;
+  hipo:drivers-outcomes-risk-management "Wind is a main or contributing component to a number of hazards such as derecho, tropical cyclone, blizzard, sub-tropical cyclone, subtropical storm, tornado, and tropical storm. " ;
+  hipo:metrics "An internationally recognized scale for measuring wind is the Beaufort Scale, which is an empirical measure that relates wind speed to observed conditions at sea or on land. Its full name is the Beaufort wind force scale. It is comprised of 13 levels including: calm, light air, light breeze, moderate breeze, fresh breeze, strong breeze, near gale, gale, strong gale, storm, violent storm and hurricane. Specifics of the thresholds for each level can be found at the following website: https://www.rmets.org/resource/beaufort-scale" ;
+  hipo:references """•	Royal Meteorological Society, The Beaufort Scale, 19 July 2018. Available at:  https://www.rmets.org/resource/beaufort-scale 
+•	WMO Guide to Meteorological Instruments and Methods of Observation, WMO-No.8. Available at: https://library.wmo.int/doc_num.php?explnum_id=10179""" ;
+.
+hip:wind-related
+  a hipo:Cluster ;
+  rdfs:label "Wind-related" ;
+  skos:member hip:wind ;
+  skos:prefLabel "Wind-related"@en ;
+.
+
+## People we will refer to ##
+
+hipp:chloe-sellwood
+  a dcterms:Agent ;
+  foaf:name "Dr Chloe Sellwood" ;
+  foaf:workplaceHomepage <https://www.england.nhs.uk/> ;
+.
+hipp:david-heymann
+  a dcterms:Agent ;
+  foaf:name "David Heymann" ;
+  foaf:workplaceHomepage <https://www.who.int/> ;
+.
+hipp:fuqiang-cui
+  a dcterms:Agent ;
+  foaf:name "Fuqiang Cui" ;
+  foaf:workplaceHomepage <https://www.who.int/> ;
+.
+hipp:geunhye-kim
+  a dcterms:Agent ;
+  foaf:name "Geunhye Kim" ;
+  foaf:workplaceHomepage <https://wmo.int> ;
+.
+hipp:hannes-kern
+  a dcterms:Agent ;
+  foaf:name "Hannes Kern" ;
+  foaf:workplaceHomepage <https://www.iutox.org/> ;
+.
+hipp:james-douris
+  a dcterms:Agent ;
+  foaf:name "James Douris" ;
+  foaf:workplaceHomepage <https://wmo.int> ;
+.
+hipp:john-duffus
+  a dcterms:Agent ;
+  dcterms:identifier "https://orcid.org/0000-0001-5034-3835"^^xsd:anyURI ;
+  foaf:name "John Duffus" ;
+.
+hipp:lidia-mayner
+  a dcterms:Agent ;
+  dcterms:identifier "https://orcid.org/0000-0002-1291-9095"^^xsd:anyURI ;
+  foaf:name "Lidia Mayner" ;
+.
+hipp:michael-schwenk
+  a dcterms:Agent ;
+  foaf:name "Mike Schwenk" ;
+.
+hipp:natalie-wright
+  a dcterms:Agent ;
+  foaf:name "Natalie Wright" ;
+  foaf:workplaceHomepage <https://www.gov.uk/government/organisations/public-health-england> ;
+.
+hipp:robert-verrecchia
+  a dcterms:Agent ;
+  foaf:name "Robert Verrecchia" ;
+  foaf:workplaceHomepage <https://www.gov.uk/government/organisations/department-for-international-development> ;
+.
+hipp:virginia-murray
+  a dcterms:Agent ;
+  foaf:name "Virginia Murray" ;
+  foaf:workplaceHomepage <https://www.gov.uk/government/organisations/public-health-england> ;
+.
+hipp:wenqing-zhang
+  a dcterms:Agent ;
+  foaf:name "Wenqing Zhang" ;
+  foaf:workplaceHomepage <https://www.who.int/> ;
+.
+
+<https://codata.org/def/hip>
+  a owl:Ontology ;
+  dcterms:created "2020-09-13"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:description "Encoding of Hazard Information Profiles developed by ISC/UNDRR Working Group on Hazard Terminology" ;
+  dcterms:modified "2020-09-13"^^xsd:date ;
+  owl:imports dcterms: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:imports <http://www.w3.org/ns/dcat> ;
+  owl:imports <https://codata.org/ont/hip> ;
+  owl:imports foaf: ;
+.
