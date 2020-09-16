@@ -1,0 +1,82 @@
+# baseURI: https://codata.org/def/hip
+# imports: https://codata.org/ont/hip
+# imports: http://purl.org/dc/terms/
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://www.w3.org/ns/dcat
+# imports: http://xmlns.com/foaf/0.1/
+
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hip: <https://codata.org/def/hip/> .
+@prefix hipo: <https://codata.org/ont/hip#> .
+@prefix hipp: <https://codata.org/cms/hip/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+hip:_{hip-name-as-hyphen-separated-lc-words}
+  a hipo:Provenance ;
+  skos:editorialNote """
+  {author, reviewer and revision description text - final block}
+  """ ;
+  dcterms:creator hipp:{person1-id} ;
+  dcterms:creator hipp:{person2-id} ;
+  dcat:contactPoint <mailto:{person1-email}> ;
+  dcat:contactPoint <mailto:{person2-email}> ;
+  owl:versionInfo "{version information - from within final block}" ;
+  foaf:primaryTopic hip:{hip-name-as-hyphen-separated-lc-words} ;
+.
+hip:{hip-name-as-hyphen-separated-lc-words}
+  a skos:Concept ;
+  a hipo:HIP ;
+  skos:prefLabel "{Hazard name}"@en ;
+  skos:definition "{DEFINITION}" ;
+  dcterms:source "{REFERENCE}" ;
+  skos:altLabel "{Synonym-1 - delete or repeat as needed}"@en ;
+  skos:altLabel "{Synonym-2 - delete or repeat as needed}"@en ;
+  dcterms:modified "{date HIP finalised - found in the final block}"^^xsd:date ;
+  rdfs:label "ARSENIC" ;
+  hipo:additional-description """
+  {Additional scientific description}
+  """ ;
+  hipo:metrics """
+  {Metrics and numeric limits}
+  """ ;
+  hipo:convention-treaty """
+  {Key relevant UN convention/multilateral treaty}
+  """ ;
+  hipo:drivers-outcomes-risk-management """
+  {Examples of drivers, outcomes and risk management}
+  """ ;
+  hipo:references """
+  {REFERENCES}
+  """ ;
+  hipo:coordinator <https://{URL for Coordinating Agency or Organisation}> ;
+.
+
+## People we will refer to ##
+
+
+hipp:{person-id}
+  a dcterms:Agent ;
+  dcterms:identifier "https://orcid.org/{ORCID if available}"^^xsd:anyURI ;
+  foaf:name "{name}" ;
+  foaf:workplaceHomepage <https://{URL for primary affiliation}/> ;
+.
+
+<https://codata.org/def/hip>
+  a owl:Ontology ;
+  dcterms:created "2020-09-16"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:description "Template for encoding of Hazard Information Profiles developed by ISC/UNDRR Working Group on Hazard Terminology" ;
+  dcterms:modified "2020-09-16"^^xsd:date ;
+  owl:imports dcterms: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:imports <http://www.w3.org/ns/dcat> ;
+  owl:imports <https://codata.org/ont/hip> ;
+  owl:imports foaf: ;
+.
