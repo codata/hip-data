@@ -27,7 +27,6 @@ hip:{hip-name-as-hyphen-separated-lc-words}
   dcterms:source "{REFERENCE}" ;
   skos:altLabel "{Synonym-1 - delete or repeat as needed}"@en ;
   skos:altLabel "{Synonym-2 - delete or repeat as needed}"@en ;
-  dcterms:modified "{date HIP finalised - found in the final block}"^^xsd:date ;
   rdfs:label "ARSENIC" ;
   hipo:additional-description """
   {Additional scientific description}
@@ -45,6 +44,7 @@ hip:{hip-name-as-hyphen-separated-lc-words}
   {REFERENCES}
   """ ;
   hipo:coordinator <https://{URL for Coordinating Agency or Organisation}> ;
+  dcterms:modified "{date HIP finalised - found in the final block}"^^xsd:date ;
 .
 
 ## The provenance record for the HIP ## 
