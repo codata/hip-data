@@ -17,19 +17,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+## The HIP itself ## 
 
-hip:_{hip-name-as-hyphen-separated-lc-words}
-  a hipo:Provenance ;
-  skos:editorialNote """
-  {author, reviewer and revision description text - final block}
-  """ ;
-  dcterms:creator hipp:{person1-id} ;
-  dcterms:creator hipp:{person2-id} ;
-  dcat:contactPoint <mailto:{person1-email}> ;
-  dcat:contactPoint <mailto:{person2-email}> ;
-  owl:versionInfo "{version information - from within final block}" ;
-  foaf:primaryTopic hip:{hip-name-as-hyphen-separated-lc-words} ;
-.
 hip:{hip-name-as-hyphen-separated-lc-words}
   a skos:Concept ;
   a hipo:HIP ;
@@ -58,15 +47,30 @@ hip:{hip-name-as-hyphen-separated-lc-words}
   hipo:coordinator <https://{URL for Coordinating Agency or Organisation}> ;
 .
 
-## People we will refer to ##
+## The provenance record for the HIP ## 
 
+hip:_{hip-name-as-hyphen-separated-lc-words}
+  a hipo:Provenance ;
+  skos:editorialNote """
+  {author, reviewer and revision description text - final block}
+  """ ;
+  dcterms:creator hipp:{person1-id} ;
+  dcterms:creator hipp:{person2-id} ;
+  owl:versionInfo "{version information - from within final block}" ;
+  foaf:primaryTopic hip:{hip-name-as-hyphen-separated-lc-words} ;
+.
+
+## People refered to in the provenance record - repeat as needed ##
 
 hipp:{person-id}
   a dcterms:Agent ;
   dcterms:identifier "https://orcid.org/{ORCID if available}"^^xsd:anyURI ;
+  foaf:mbox <mailto:{person-email}> ;
   foaf:name "{name}" ;
   foaf:workplaceHomepage <https://{URL for primary affiliation}/> ;
 .
+
+## My metadata for the template ## 
 
 <https://codata.org/def/hip>
   a owl:Ontology ;
