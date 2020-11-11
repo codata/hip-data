@@ -27,7 +27,6 @@ hip:{hip-name-as-hyphen-separated-lc-words}
   dcterms:source "{REFERENCE}" ;
   skos:altLabel "{Synonym-1 - delete or repeat as needed}"@en ;
   skos:altLabel "{Synonym-2 - delete or repeat as needed}"@en ;
-  rdfs:label "ARSENIC" ;
   hipo:additional-description """
   {Additional scientific description}
   """ ;
