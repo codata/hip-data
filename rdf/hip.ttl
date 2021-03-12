@@ -1,9 +1,9 @@
 # baseURI: https://codata.org/def/hip
-# imports: https://codata.org/ont/hip
 # imports: http://purl.org/dc/terms/
 # imports: http://www.w3.org/2004/02/skos/core
 # imports: http://www.w3.org/ns/dcat
 # imports: http://xmlns.com/foaf/0.1/
+# imports: https://codata.org/ont/hip
 
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
@@ -17,8 +17,82 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-## HIPs, Types and Clusters ##
-
+hipp:chloe-sellwood
+  a dcterms:Agent ;
+  foaf:name "Dr Chloe Sellwood" ;
+  foaf:workplaceHomepage <https://www.england.nhs.uk/> ;
+.
+hipp:david-heymann
+  a dcterms:Agent ;
+  foaf:name "David Heymann" ;
+  foaf:workplaceHomepage <https://www.who.int/> ;
+.
+hipp:fuqiang-cui
+  a dcterms:Agent ;
+  foaf:name "Fuqiang Cui" ;
+  foaf:workplaceHomepage <https://www.who.int/> ;
+.
+hipp:geunhye-kim
+  a dcterms:Agent ;
+  foaf:name "Geunhye Kim" ;
+  foaf:workplaceHomepage <https://wmo.int> ;
+.
+hipp:hannes-kern
+  a dcterms:Agent ;
+  foaf:name "Hannes Kern" ;
+  foaf:workplaceHomepage <https://www.iutox.org/> ;
+.
+hipp:james-douris
+  a dcterms:Agent ;
+  foaf:name "James Douris" ;
+  foaf:workplaceHomepage <https://wmo.int> ;
+.
+hipp:john-duffus
+  a dcterms:Agent ;
+  dcterms:identifier "https://orcid.org/0000-0001-5034-3835"^^xsd:anyURI ;
+  foaf:name "John Duffus" ;
+.
+hipp:lidia-mayner
+  a dcterms:Agent ;
+  dcterms:identifier "https://orcid.org/0000-0002-1291-9095"^^xsd:anyURI ;
+  foaf:name "Lidia Mayner" ;
+.
+hipp:michael-schwenk
+  a dcterms:Agent ;
+  foaf:name "Mike Schwenk" ;
+.
+hipp:natalie-wright
+  a dcterms:Agent ;
+  foaf:name "Natalie Wright" ;
+  foaf:workplaceHomepage <https://www.gov.uk/government/organisations/public-health-england> ;
+.
+hipp:robert-verrecchia
+  a dcterms:Agent ;
+  foaf:name "Robert Verrecchia" ;
+  foaf:workplaceHomepage <https://www.gov.uk/government/organisations/department-for-international-development> ;
+.
+hipp:virginia-murray
+  a dcterms:Agent ;
+  foaf:name "Virginia Murray" ;
+  foaf:workplaceHomepage <https://www.gov.uk/government/organisations/public-health-england> ;
+.
+hipp:wenqing-zhang
+  a dcterms:Agent ;
+  foaf:name "Wenqing Zhang" ;
+  foaf:workplaceHomepage <https://www.who.int/> ;
+.
+<https://codata.org/def/hip>
+  a owl:Ontology ;
+  dcterms:created "2020-09-13"^^xsd:date ;
+  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:description "Encoding of Hazard Information Profiles developed by ISC/UNDRR Working Group on Hazard Terminology" ;
+  dcterms:modified "2020-09-13"^^xsd:date ;
+  owl:imports dcterms: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  owl:imports <http://www.w3.org/ns/dcat> ;
+  owl:imports foaf: ;
+  owl:imports <https://codata.org/ont/hip> ;
+.
 hip:_arsenic
   a hipo:Provenance ;
   dcterms:creator hipp:lidia-mayner ;
@@ -103,12 +177,19 @@ Initial Review: """ ;
   dcat:contactPoint <mailto:jdouris@wmo.int> ;
   foaf:primaryTopic hip:wind ;
 .
+hip:aquaculture
+  a hipo:Cluster ;
+  rdfs:label "Aquaculture" ;
+  skos:prefLabel "Aquaculture"@en ;
+  skos:topConceptOf hip:hips ;
+.
 hip:arsenic
   a skos:Concept ;
   a hipo:HIP ;
   dcterms:modified "2020-09-03"^^xsd:date ;
   dcterms:source "World Health Organization (2019). Preventing disease through healthy environments: Exposure to arsenic: A major public health concern. Available at apps.who.int/iris/bitstream/handle/10665/329482/WHO-CED-PHE-EPE-19.4.1-eng.pdf?ua=1. Accessed 21 November 2019." ;
   rdfs:label "ARSENIC" ;
+  skos:broader hip:heavy-metals ;
   skos:definition "Arsenic is widely distributed throughout the Earth’s crust, generally as arsenic sulphide or as metal arsenates and arsenides. Human exposure to arsenic compounds represents a major public health concern as it has been associated with a range of acute and long-term adverse health effects and diseases (World Health Organization 2019)." ;
   skos:prefLabel "ARSENIC"@en ;
   hipo:additional-description """Arsenic (symbol As, atomic number 33) can be released into the atmosphere and water in the following ways: 
@@ -162,6 +243,7 @@ hip:asbestos
   dcterms:modified "2020-09-03"^^xsd:date ;
   dcterms:source "World Health Organization (Date unknown). International Programme on Chemical Safety: Asbestos Available at https://www.who.int/ipcs/assessment/public_health/asbestos/en/. Accessed 18 November 2019." ;
   rdfs:label "Asbestos" ;
+  skos:broader hip:other-chemical ;
   skos:definition "Asbestos is a group of naturally occurring minerals which was widely used in building materials and other products (WHO, Date unknown). All types of asbestos cause lung cancer, mesothelioma, cancer of the larynx and ovary, and asbestosis (fibrosis of the lungs) (World Health Organization date unknown)." ;
   skos:note """Metrics and numeric limits:
 
@@ -204,6 +286,8 @@ hip:avalanche
   dcterms:modified "2019-11-19" ;
   dcterms:source "WMO (1992) International Meteorological Vocabulary, WMO-No. 182. Available at https://library.wmo.int/doc_num.php?explnum_id=4712 Accessed on 18 November 2019." ;
   rdfs:label "Avalanche" ;
+  skos:broader hip:shallow-geohazard ;
+  skos:broader hip:terrestrial ;
   skos:definition "Mass of snow and ice falling suddenly down a mountain slope and often taking with it earth, rocks and rubble of every description." ;
   skos:prefLabel "Avalanche"@en ;
   hipo:additional-description "An avalanche is a rapid flow of snow down a hill or mountainside. Although avalanches can occur on any slope given the right conditions, certain times of the year and certain locations are naturally more dangerous than others. Wintertime, particularly from December to April, is when most avalanches tend to happen. (U.S. National Snow and Ice Data Center, 2019)" ;
@@ -253,30 +337,126 @@ Wet-snow avalanches are usually triggered naturally, most often by a big increas
 •	WSL Institute for Snow Avalanche Research SLF (2019) Avalanche Protection. Available at https://www.slf.ch/en/avalanches/avalanche-protection.html. Accessed on 18 November 2019
 •	WSL Institute for Snow Avalanche Research SLF (2019) Avalanche Formation. Available at https://www.slf.ch/en/avalanches/avalanche-formation.html. Accessed on 18 November 2019""" ;
 .
+hip:behavioural
+  a hipo:Cluster ;
+  rdfs:label "Behavioural" ;
+  skos:prefLabel "Behavioural"@en ;
+  skos:topConceptOf hip:hips ;
+.
 hip:biological
   a hipo:Type ;
   rdfs:label "BIOLOGICAL" ;
-  skos:member hip:infectious-human-animal ;
+  skos:inScheme hip:hips ;
+  skos:member hip:hepatitis-b ;
+  skos:member hip:pandemic-influenza ;
   skos:prefLabel "BIOLOGICAL"@en ;
+.
+hip:cbrne
+  a hipo:Cluster ;
+  rdfs:label "CBRNE" ;
+  skos:altLabel "Chemical, Biological, Radiological, Nuclear, and Explosive"@en ;
+  skos:prefLabel "CBRNE"@en ;
+  skos:topConceptOf hip:hips ;
 .
 hip:chemical
   a hipo:Type ;
   rdfs:label "CHEMICAL" ;
-  skos:member hip:heavy-metals ;
-  skos:member hip:other-chemical ;
+  skos:inScheme hip:hips ;
+  skos:member hip:arsenic ;
+  skos:member hip:asbestos ;
   skos:prefLabel "CHEMICAL"@en ;
+.
+hip:conflict
+  a hipo:Cluster ;
+  rdfs:label "Conflict" ;
+  skos:prefLabel "Conflict"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:construction
+  a hipo:Cluster ;
+  rdfs:label "Construction/ Structural failure" ;
+  skos:prefLabel "Construction/ Structural failure"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:convective-related
+  a hipo:Cluster ;
+  rdfs:label "Convective-related" ;
+  skos:prefLabel "Convective-related "@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:cyber
+  a hipo:Cluster ;
+  rdfs:label "Cyber hazard" ;
+  skos:prefLabel "Cyber hazard"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:economic
+  a hipo:Cluster ;
+  rdfs:label "Economic" ;
+  skos:prefLabel "Economic"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:environmental
+  a hipo:Type ;
+  rdfs:label "ENVIRONMENTAL" ;
+  skos:inScheme hip:hips ;
+  skos:prefLabel "ENVIRONMENTAL"@en ;
+.
+hip:environmental-degradation
+  a hipo:Cluster ;
+  rdfs:label "Environmental degradation" ;
+  skos:prefLabel "Environmental degradation"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:environmental-degradation-forestry
+  a hipo:Cluster ;
+  rdfs:label "Environmental degradation (Forestry)" ;
+  skos:prefLabel "Environmental degradation (Forestry)"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:extraterrestrial
+  a hipo:Type ;
+  rdfs:label "EXTRATERRESTRIAL" ;
+  skos:inScheme hip:hips ;
+  skos:prefLabel "EXTRATERRESTRIAL"@en ;
+.
+hip:extraterrestrial-cluster
+  a hipo:Cluster ;
+  rdfs:label "Extraterrestrial" ;
+  skos:prefLabel "Extraterrestrial "@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:flood
+  a hipo:Cluster ;
+  rdfs:label "Flood" ;
+  skos:prefLabel "Flood"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:food-safety
+  a hipo:Cluster ;
+  rdfs:label "Food safety" ;
+  skos:prefLabel "Food safety"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:gases
+  a hipo:Cluster ;
+  rdfs:label "Gases" ;
+  skos:prefLabel "Gases"@en ;
+  skos:topConceptOf hip:hips ;
 .
 hip:geohazard
   a hipo:Type ;
   rdfs:label "GEOHAZARD" ;
-  skos:member hip:shallow-geohazard ;
+  skos:inScheme hip:hips ;
+  skos:member hip:avalanche ;
   skos:prefLabel "GEOHAZARD"@en ;
 .
 hip:heavy-metals
   a hipo:Cluster ;
   rdfs:label "Heavy Metals" ;
-  skos:member hip:arsenic ;
+  skos:narrower hip:arsenic ;
   skos:prefLabel "Heavy Metals"@en ;
+  skos:topConceptOf hip:hips ;
 .
 hip:hepatitis-b
   a skos:Concept ;
@@ -288,6 +468,7 @@ hip:hepatitis-b
   skos:altLabel "acute hepatitis B" ;
   skos:altLabel "chronic hepatitis B" ;
   skos:altLabel "hepatitis B related cirrhosis and hepatocellular carcinoma" ;
+  skos:broader hip:infectious-human-animal ;
   skos:definition "Hepatitis B is a vaccine-preventable disease, endemic and epidemic worldwide, caused by the Hepatitis B virus (HBV). HBV can cause both acute and chronic liver disease. Chronic infection puts people at high risk of death from cirrhosis and liver cancer. (World Health Organization 2019a)."@en ;
   skos:prefLabel "HEPATITIS B"@en ;
   hipo:additional-description """Hepatitis B is the most serious type of viral hepatitis. In highly endemic areas, HBV, which is highly contagious, is most commonly spread from mother to child at birth (perinatal transmission), or through horizontal transmission (exposure to infected blood), especially from an infected child to an uninfected child during the first five years of life (World Health Organization 2016a).  Hepatitis B is also spread by needlestick injury, tattooing, piercing and exposure to infected blood and body fluids, such as saliva and, menstrual, vaginal, and seminal fluids. Sexual transmission of hepatitis B may occur, particularly in unvaccinated men who have sex with men and heterosexual persons with multiple sex partners or contact with sex workers (World Health Organization 2019a).
@@ -318,25 +499,141 @@ The WHO has published surveillance standards for hepatitis B (World Health Organ
 •	World Health Organization (2016b). International health regulations (2005), 3rd edition. Available at www.who.int/ihr/publications/9789241580496/en/. Accessed 21 November 2019.  
 •	World Health Organization. (date unknown). Immunizations, vaccines and biologicals: WHO-recommended surveillance standard of acute viral hepatitis. Available at www.who.int/immunization/monitoring_surveillance/burden/vpd/surveillance_type/passive/hepatitis_standards/en/. Accessed 21 November 2019.""" ;
 .
+hip:hips
+  a skos:ConceptScheme ;
+  dcterms:description "Hazard Information Profiles developed by ISC/UNDRR Working Group on Hazard Terminology" ;
+  rdfs:comment "Hazard Information Profiles developed by ISC/UNDRR Working Group on Hazard Terminology" ;
+  rdfs:label "Hazard information profiles" ;
+  skos:hasTopConcept hip:aquaculture ;
+  skos:hasTopConcept hip:behavioural ;
+  skos:hasTopConcept hip:cbrne ;
+  skos:hasTopConcept hip:conflict ;
+  skos:hasTopConcept hip:construction ;
+  skos:hasTopConcept hip:convective-related ;
+  skos:hasTopConcept hip:cyber ;
+  skos:hasTopConcept hip:economic ;
+  skos:hasTopConcept hip:environmental-degradation ;
+  skos:hasTopConcept hip:environmental-degradation-forestry ;
+  skos:hasTopConcept hip:extraterrestrial-cluster ;
+  skos:hasTopConcept hip:flood ;
+  skos:hasTopConcept hip:food-safety ;
+  skos:hasTopConcept hip:gases ;
+  skos:hasTopConcept hip:heavy-metals ;
+  skos:hasTopConcept hip:human-animal ;
+  skos:hasTopConcept hip:hydrocarbons ;
+  skos:hasTopConcept hip:industrial ;
+  skos:hasTopConcept hip:infectious-aquaculture ;
+  skos:hasTopConcept hip:infectious-human-animal ;
+  skos:hasTopConcept hip:infectious-plant ;
+  skos:hasTopConcept hip:infrastructure ;
+  skos:hasTopConcept hip:insect-infestation ;
+  skos:hasTopConcept hip:invasive-species ;
+  skos:hasTopConcept hip:lithometeors ;
+  skos:hasTopConcept hip:marine ;
+  skos:hasTopConcept hip:mental-health ;
+  skos:hasTopConcept hip:other-chemical ;
+  skos:hasTopConcept hip:pop ;
+  skos:hasTopConcept hip:post-conflict ;
+  skos:hasTopConcept hip:precipitation-related ;
+  skos:hasTopConcept hip:pressure-related ;
+  skos:hasTopConcept hip:radiation ;
+  skos:hasTopConcept hip:seismogenic ;
+  skos:hasTopConcept hip:shallow-geohazard ;
+  skos:hasTopConcept hip:temperature-related ;
+  skos:hasTopConcept hip:terrestrial ;
+  skos:hasTopConcept hip:transportation ;
+  skos:hasTopConcept hip:volcanogenic ;
+  skos:hasTopConcept hip:waste ;
+  skos:hasTopConcept hip:wind-related ;
+  skos:prefLabel "Hazard information profiles "@en ;
+.
+hip:human-animal
+  a hipo:Cluster ;
+  rdfs:label "Human-Animal interaction" ;
+  skos:prefLabel "Human-Animal interaction"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:hydrocarbons
+  a hipo:Cluster ;
+  rdfs:label "Hydrocarbons" ;
+  skos:prefLabel "Hydrocarbons"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:industrial
+  a hipo:Cluster ;
+  rdfs:label "Industrial failure / Non-compliance" ;
+  skos:prefLabel "Industrial failure / Non-compliance"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:infectious-aquaculture
+  a hipo:Cluster ;
+  rdfs:label "Infectious diseases (aquaculture)" ;
+  skos:prefLabel "Infectious diseases (aquaculture)"@en ;
+  skos:topConceptOf hip:hips ;
+.
 hip:infectious-human-animal
   a hipo:Cluster ;
   rdfs:label "Infectious Diseases (human and animal)" ;
-  skos:member hip:hepatitis-b ;
-  skos:member hip:pandemic-influenza ;
+  skos:narrower hip:hepatitis-b ;
+  skos:narrower hip:pandemic-influenza ;
   skos:prefLabel "Infectious Diseases (human and animal)"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:infectious-plant
+  a hipo:Cluster ;
+  rdfs:label "Infectious diseases (plant)" ;
+  skos:prefLabel "Infectious diseases (plant)"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:infrastructure
+  a hipo:Cluster ;
+  rdfs:label "Infrastructure failure" ;
+  skos:prefLabel "Infrastructure failure"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:insect-infestation
+  a hipo:Cluster ;
+  rdfs:label "Insect Infestation" ;
+  skos:prefLabel "Insect Infestation"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:invasive-species
+  a hipo:Cluster ;
+  rdfs:label "Invasive species" ;
+  skos:prefLabel "Invasive species"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:lithometeors
+  a hipo:Cluster ;
+  rdfs:label "Lithometeors" ;
+  skos:prefLabel "Lithometeors "@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:marine
+  a hipo:Cluster ;
+  rdfs:label "Marine" ;
+  skos:prefLabel "Marine "@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:mental-health
+  a hipo:Cluster ;
+  rdfs:label "Mental health" ;
+  skos:prefLabel "Mental health"@en ;
+  skos:topConceptOf hip:hips ;
 .
 hip:met-hydro
   a hipo:Type ;
   rdfs:label "METEOROLOGICAL and HYDROLOGICAL" ;
-  skos:member hip:terrestrial ;
-  skos:member hip:wind-related ;
+  skos:inScheme hip:hips ;
+  skos:member hip:avalanche ;
+  skos:member hip:wind ;
   skos:prefLabel "METEOROLOGICAL and HYDROLOGICAL"@en ;
 .
 hip:other-chemical
   a hipo:Cluster ;
   rdfs:label "Other chemical" ;
-  skos:member hip:asbestos ;
   skos:prefLabel "Other chemical"@en ;
+  skos:topConceptOf hip:hips ;
 .
 hip:pandemic-influenza
   a skos:Concept ;
@@ -346,6 +643,7 @@ hip:pandemic-influenza
   rdfs:label "PANDEMIC INFLUENZA" ;
   rdfs:seeAlso <http://www.euro.who.int/en/health-topics/communicable-diseases/influenza/pandemic-influenza> ;
   skos:altLabel "pan flu" ;
+  skos:broader hip:infectious-human-animal ;
   skos:definition "An influenza pandemic is a global epidemic caused by a new influenza virus to which there is little or no pre-existing immunity in the human population (World Health Organization 2019)."@en ;
   skos:prefLabel "PANDEMIC INFLUENZA"@en ;
   hipo:additional-description """The constant evolving nature of influenza virus makes influenza among the top few infectious hazards with significant impact. There will be another influenza pandemic. A pandemic occurs when an influenza virus emerges to which there is little or no immunity in the global human population and which can transmit efficiently among people. The pandemic virus can be a virus strain jumping directly from animals or reassorted from animal viruses with or without human seasonal viruses.
@@ -366,17 +664,91 @@ The current status of knowledge and technology means that prediction of the next
 •	World Health Organization (2019). Pandemic Influenza Preparedness. Available at www.who.int/influenza/preparedness/en/. Accessed on 19 November 2019.
 •	World Health Organization (2019). Pandemic Influenza. Available at www.euro.who.int/en/health-topics/communicable-diseases/influenza/pandemic-influenza. Accessed on 19 November 2019.""" ;
 .
+hip:pop
+  a hipo:Cluster ;
+  rdfs:label "Persistent organic pollutants (POPs)" ;
+  skos:prefLabel "Persistent organic pollutants (POPs)"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:post-conflict
+  a hipo:Cluster ;
+  rdfs:label "Post-conflict" ;
+  skos:prefLabel "Post-conflict"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:precipitation-related
+  a hipo:Cluster ;
+  rdfs:label "Precipitation-related" ;
+  skos:prefLabel "Precipitation-related "@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:pressure-related
+  a hipo:Cluster ;
+  rdfs:label "Pressure-related" ;
+  skos:prefLabel "Pressure-related "@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:radiation
+  a hipo:Cluster ;
+  rdfs:label "Radiation" ;
+  skos:prefLabel "Radiation"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:seismogenic
+  a hipo:Cluster ;
+  rdfs:label "Seismogenic (earthquakes)" ;
+  skos:prefLabel "Seismogenic (earthquakes) "@en ;
+  skos:topConceptOf hip:hips ;
+.
 hip:shallow-geohazard
   a hipo:Cluster ;
   rdfs:label "Shallow geohazard" ;
-  skos:member hip:avalanche ;
+  skos:narrower hip:avalanche ;
   skos:prefLabel "Shallow geohazard"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:societal
+  a hipo:Type ;
+  rdfs:label "SOCIETAL" ;
+  skos:inScheme hip:hips ;
+  skos:prefLabel "SOCIETAL"@en ;
+.
+hip:technological
+  a hipo:Type ;
+  rdfs:label "TECHNOLOGICAL" ;
+  skos:inScheme hip:hips ;
+  skos:prefLabel "TECHNOLOGICAL"@en ;
+.
+hip:temperature-related
+  a hipo:Cluster ;
+  rdfs:label "Temperature-related" ;
+  skos:prefLabel "Temperature-related "@en ;
+  skos:topConceptOf hip:hips ;
 .
 hip:terrestrial
   a hipo:Cluster ;
   rdfs:label "Terrestrial" ;
-  skos:member hip:avalanche ;
+  skos:narrower hip:avalanche ;
   skos:prefLabel "Terrestrial"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:transportation
+  a hipo:Cluster ;
+  rdfs:label "Transportation" ;
+  skos:prefLabel "Transportation"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:volcanogenic
+  a hipo:Cluster ;
+  rdfs:label "Volcanogenic (volcanoes and geothermal)" ;
+  skos:prefLabel "Volcanogenic (volcanoes and geothermal)"@en ;
+  skos:topConceptOf hip:hips ;
+.
+hip:waste
+  a hipo:Cluster ;
+  rdfs:label "Waste" ;
+  skos:prefLabel "Waste"@en ;
+  skos:topConceptOf hip:hips ;
 .
 hip:wind
   a skos:Concept ;
@@ -384,6 +756,7 @@ hip:wind
   dcterms:modified "2019-11-25" ;
   dcterms:source "REFERENCE(S): WMO (1992) International Meteorological Vocabulary, WMO-No. 182. Available at https://library.wmo.int/doc_num.php?explnum_id=4712 Accessed on 25 November 2019. " ;
   rdfs:label "Wind" ;
+  skos:broader hip:wind-related ;
   skos:definition "Air motion relative to the Earth's surface. Unless otherwise specified, only the horizontal component is considered." ;
   skos:prefLabel "Wind"@en ;
   hipo:additional-description "A three-dimensional vector quantity with small-scale random fluctuations in space and time superimposed upon a larger-scale organized flow. It is considered in this form in relation to, for example, airborne pollution and the landing of aircraft. For the purpose of the present Guide, however, surface wind will be considered mainly as a two-dimensional vector quantity specified by two numbers representing direction and speed. The extent to which wind is characterized by rapid fluctuations is referred to as gustiness, and single fluctuations are called gusts. (WMO 2008)" ;
@@ -396,86 +769,7 @@ hip:wind
 hip:wind-related
   a hipo:Cluster ;
   rdfs:label "Wind-related" ;
-  skos:member hip:wind ;
+  skos:narrower hip:wind ;
   skos:prefLabel "Wind-related"@en ;
-.
-
-## People we will refer to ##
-
-hipp:chloe-sellwood
-  a dcterms:Agent ;
-  foaf:name "Dr Chloe Sellwood" ;
-  foaf:workplaceHomepage <https://www.england.nhs.uk/> ;
-.
-hipp:david-heymann
-  a dcterms:Agent ;
-  foaf:name "David Heymann" ;
-  foaf:workplaceHomepage <https://www.who.int/> ;
-.
-hipp:fuqiang-cui
-  a dcterms:Agent ;
-  foaf:name "Fuqiang Cui" ;
-  foaf:workplaceHomepage <https://www.who.int/> ;
-.
-hipp:geunhye-kim
-  a dcterms:Agent ;
-  foaf:name "Geunhye Kim" ;
-  foaf:workplaceHomepage <https://wmo.int> ;
-.
-hipp:hannes-kern
-  a dcterms:Agent ;
-  foaf:name "Hannes Kern" ;
-  foaf:workplaceHomepage <https://www.iutox.org/> ;
-.
-hipp:james-douris
-  a dcterms:Agent ;
-  foaf:name "James Douris" ;
-  foaf:workplaceHomepage <https://wmo.int> ;
-.
-hipp:john-duffus
-  a dcterms:Agent ;
-  dcterms:identifier "https://orcid.org/0000-0001-5034-3835"^^xsd:anyURI ;
-  foaf:name "John Duffus" ;
-.
-hipp:lidia-mayner
-  a dcterms:Agent ;
-  dcterms:identifier "https://orcid.org/0000-0002-1291-9095"^^xsd:anyURI ;
-  foaf:name "Lidia Mayner" ;
-.
-hipp:michael-schwenk
-  a dcterms:Agent ;
-  foaf:name "Mike Schwenk" ;
-.
-hipp:natalie-wright
-  a dcterms:Agent ;
-  foaf:name "Natalie Wright" ;
-  foaf:workplaceHomepage <https://www.gov.uk/government/organisations/public-health-england> ;
-.
-hipp:robert-verrecchia
-  a dcterms:Agent ;
-  foaf:name "Robert Verrecchia" ;
-  foaf:workplaceHomepage <https://www.gov.uk/government/organisations/department-for-international-development> ;
-.
-hipp:virginia-murray
-  a dcterms:Agent ;
-  foaf:name "Virginia Murray" ;
-  foaf:workplaceHomepage <https://www.gov.uk/government/organisations/public-health-england> ;
-.
-hipp:wenqing-zhang
-  a dcterms:Agent ;
-  foaf:name "Wenqing Zhang" ;
-  foaf:workplaceHomepage <https://www.who.int/> ;
-.
-
-<https://codata.org/def/hip>
-  a owl:Ontology ;
-  dcterms:created "2020-09-13"^^xsd:date ;
-  dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
-  dcterms:description "Encoding of Hazard Information Profiles developed by ISC/UNDRR Working Group on Hazard Terminology" ;
-  dcterms:modified "2020-09-13"^^xsd:date ;
-  owl:imports dcterms: ;
-  owl:imports <http://www.w3.org/2004/02/skos/core> ;
-  owl:imports <http://www.w3.org/ns/dcat> ;
-  owl:imports <https://codata.org/ont/hip> ;
-  owl:imports foaf: ;
+  skos:topConceptOf hip:hips ;
 .
