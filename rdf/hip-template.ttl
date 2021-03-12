@@ -1,10 +1,3 @@
-# baseURI: https://codata.org/def/hip
-# imports: https://codata.org/ont/hip
-# imports: http://purl.org/dc/terms/
-# imports: http://www.w3.org/2004/02/skos/core
-# imports: http://www.w3.org/ns/dcat
-# imports: http://xmlns.com/foaf/0.1/
-
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -27,6 +20,7 @@ hip:{hip-name-as-hyphen-separated-lc-words}
   dcterms:source "{REFERENCE}" ;
   skos:altLabel "{Synonym-1 - delete or repeat as needed}"@en ;
   skos:altLabel "{Synonym-2 - delete or repeat as needed}"@en ;
+  rdfs:label "{Hazard name}" ;
   hipo:additional-description """
   {Additional scientific description}
   """ ;
