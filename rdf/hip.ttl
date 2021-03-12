@@ -501,9 +501,9 @@ The WHO has published surveillance standards for hepatitis B (World Health Organ
 .
 hip:hips
   a skos:ConceptScheme ;
-  dcterms:description "Hazard Information Profiles developed by ISC/UNDRR Working Group on Hazard Terminology" ;
   rdfs:comment "Hazard Information Profiles developed by ISC/UNDRR Working Group on Hazard Terminology" ;
   rdfs:label "Hazard information profiles" ;
+  skos:definition "Hazard Information Profiles developed by ISC/UNDRR Working Group on Hazard Terminology" ;
   skos:hasTopConcept hip:aquaculture ;
   skos:hasTopConcept hip:behavioural ;
   skos:hasTopConcept hip:cbrne ;
