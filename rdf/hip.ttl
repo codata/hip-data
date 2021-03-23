@@ -83,10 +83,15 @@ hipp:wenqing-zhang
 .
 <https://codata.org/def/hip>
   a owl:Ontology ;
+  dcterms:contributor <https://orcid.org/0000-0002-1291-9095> ;
+  dcterms:contributor <https://orcid.org/0000-0003-3179-7270> ;
+  dcterms:contributor <https://publichealthmatters.blog.gov.uk/author/virginia-murray/> ;
   dcterms:created "2020-09-13"^^xsd:date ;
   dcterms:creator <https://orcid.org/0000-0002-3884-3420> ;
   dcterms:description "Encoding of Hazard Information Profiles developed by ISC/UNDRR Working Group on Hazard Terminology" ;
-  dcterms:modified "2020-09-13"^^xsd:date ;
+  dcterms:modified "2021-03-16"^^xsd:date ;
+  dcterms:title "Hazard Information Profiles" ;
+  rdfs:seeAlso <https://council.science/wp-content/uploads/2020/06/UNDRR_Hazard-Report_DIGITAL.pdf> ;
   owl:imports dcterms: ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
   owl:imports <http://www.w3.org/ns/dcat> ;
@@ -191,6 +196,7 @@ hip:arsenic
   rdfs:label "ARSENIC" ;
   skos:broader hip:heavy-metals ;
   skos:definition "Arsenic is widely distributed throughout the Earth’s crust, generally as arsenic sulphide or as metal arsenates and arsenides. Human exposure to arsenic compounds represents a major public health concern as it has been associated with a range of acute and long-term adverse health effects and diseases (World Health Organization 2019)." ;
+  skos:inScheme hip:hips ;
   skos:prefLabel "ARSENIC"@en ;
   hipo:additional-description """Arsenic (symbol As, atomic number 33) can be released into the atmosphere and water in the following ways: 
 •	natural activities, such as volcanic activity, dissolution or desorption of minerals (particularly into groundwater), exudates from vegetation and wind-blown dusts; 
@@ -245,6 +251,7 @@ hip:asbestos
   rdfs:label "Asbestos" ;
   skos:broader hip:other-chemical ;
   skos:definition "Asbestos is a group of naturally occurring minerals which was widely used in building materials and other products (WHO, Date unknown). All types of asbestos cause lung cancer, mesothelioma, cancer of the larynx and ovary, and asbestosis (fibrosis of the lungs) (World Health Organization date unknown)." ;
+  skos:inScheme hip:hips ;
   skos:note """Metrics and numeric limits:
 
 Currently, according to the World Health Organisation (WHO), about 125 million people in the world are exposed to asbestos at the workplace. In 2004, asbestos-related lung cancer, mesothelioma and asbestosis from occupational exposures resulted in 107,000 deaths and 1,523,000 Disability Adjusted Life Years (DALYs) (World Health Organization date unknown). In addition, nearly 400 deaths have been attributed to non-occupational exposure to asbestos. The burden of asbestos-related diseases is still rising, even in countries that banned the use of asbestos in the early 1990s. Because of the long latency periods attached to the diseases in question, stopping the use of asbestos now will result in a decrease in the number of asbestos-related deaths only after a number of decades (World Health Organization 2014).
@@ -289,6 +296,7 @@ hip:avalanche
   skos:broader hip:shallow-geohazard ;
   skos:broader hip:terrestrial ;
   skos:definition "Mass of snow and ice falling suddenly down a mountain slope and often taking with it earth, rocks and rubble of every description." ;
+  skos:inScheme hip:hips ;
   skos:prefLabel "Avalanche"@en ;
   hipo:additional-description "An avalanche is a rapid flow of snow down a hill or mountainside. Although avalanches can occur on any slope given the right conditions, certain times of the year and certain locations are naturally more dangerous than others. Wintertime, particularly from December to April, is when most avalanches tend to happen. (U.S. National Snow and Ice Data Center, 2019)" ;
   hipo:convention-treaty "European Avalanche Warning Services (EAWS) – 29 avalanche warning services from 16 countries. (https://www.avalanches.org/)" ;
@@ -346,7 +354,6 @@ hip:behavioural
 hip:biological
   a hipo:Type ;
   rdfs:label "BIOLOGICAL" ;
-  skos:inScheme hip:hips ;
   skos:member hip:hepatitis-b ;
   skos:member hip:pandemic-influenza ;
   skos:prefLabel "BIOLOGICAL"@en ;
@@ -361,7 +368,6 @@ hip:cbrne
 hip:chemical
   a hipo:Type ;
   rdfs:label "CHEMICAL" ;
-  skos:inScheme hip:hips ;
   skos:member hip:arsenic ;
   skos:member hip:asbestos ;
   skos:prefLabel "CHEMICAL"@en ;
@@ -399,7 +405,6 @@ hip:economic
 hip:environmental
   a hipo:Type ;
   rdfs:label "ENVIRONMENTAL" ;
-  skos:inScheme hip:hips ;
   skos:prefLabel "ENVIRONMENTAL"@en ;
 .
 hip:environmental-degradation
@@ -417,7 +422,6 @@ hip:environmental-degradation-forestry
 hip:extraterrestrial
   a hipo:Type ;
   rdfs:label "EXTRATERRESTRIAL" ;
-  skos:inScheme hip:hips ;
   skos:prefLabel "EXTRATERRESTRIAL"@en ;
 .
 hip:extraterrestrial-cluster
@@ -447,7 +451,6 @@ hip:gases
 hip:geohazard
   a hipo:Type ;
   rdfs:label "GEOHAZARD" ;
-  skos:inScheme hip:hips ;
   skos:member hip:avalanche ;
   skos:prefLabel "GEOHAZARD"@en ;
 .
@@ -470,6 +473,7 @@ hip:hepatitis-b
   skos:altLabel "hepatitis B related cirrhosis and hepatocellular carcinoma" ;
   skos:broader hip:infectious-human-animal ;
   skos:definition "Hepatitis B is a vaccine-preventable disease, endemic and epidemic worldwide, caused by the Hepatitis B virus (HBV). HBV can cause both acute and chronic liver disease. Chronic infection puts people at high risk of death from cirrhosis and liver cancer. (World Health Organization 2019a)."@en ;
+  skos:inScheme hip:hips ;
   skos:prefLabel "HEPATITIS B"@en ;
   hipo:additional-description """Hepatitis B is the most serious type of viral hepatitis. In highly endemic areas, HBV, which is highly contagious, is most commonly spread from mother to child at birth (perinatal transmission), or through horizontal transmission (exposure to infected blood), especially from an infected child to an uninfected child during the first five years of life (World Health Organization 2016a).  Hepatitis B is also spread by needlestick injury, tattooing, piercing and exposure to infected blood and body fluids, such as saliva and, menstrual, vaginal, and seminal fluids. Sexual transmission of hepatitis B may occur, particularly in unvaccinated men who have sex with men and heterosexual persons with multiple sex partners or contact with sex workers (World Health Organization 2019a).
 
@@ -624,7 +628,6 @@ hip:mental-health
 hip:met-hydro
   a hipo:Type ;
   rdfs:label "METEOROLOGICAL and HYDROLOGICAL" ;
-  skos:inScheme hip:hips ;
   skos:member hip:avalanche ;
   skos:member hip:wind ;
   skos:prefLabel "METEOROLOGICAL and HYDROLOGICAL"@en ;
@@ -645,6 +648,7 @@ hip:pandemic-influenza
   skos:altLabel "pan flu" ;
   skos:broader hip:infectious-human-animal ;
   skos:definition "An influenza pandemic is a global epidemic caused by a new influenza virus to which there is little or no pre-existing immunity in the human population (World Health Organization 2019)."@en ;
+  skos:inScheme hip:hips ;
   skos:prefLabel "PANDEMIC INFLUENZA"@en ;
   hipo:additional-description """The constant evolving nature of influenza virus makes influenza among the top few infectious hazards with significant impact. There will be another influenza pandemic. A pandemic occurs when an influenza virus emerges to which there is little or no immunity in the global human population and which can transmit efficiently among people. The pandemic virus can be a virus strain jumping directly from animals or reassorted from animal viruses with or without human seasonal viruses.
 
@@ -710,13 +714,11 @@ hip:shallow-geohazard
 hip:societal
   a hipo:Type ;
   rdfs:label "SOCIETAL" ;
-  skos:inScheme hip:hips ;
   skos:prefLabel "SOCIETAL"@en ;
 .
 hip:technological
   a hipo:Type ;
   rdfs:label "TECHNOLOGICAL" ;
-  skos:inScheme hip:hips ;
   skos:prefLabel "TECHNOLOGICAL"@en ;
 .
 hip:temperature-related
@@ -758,6 +760,7 @@ hip:wind
   rdfs:label "Wind" ;
   skos:broader hip:wind-related ;
   skos:definition "Air motion relative to the Earth's surface. Unless otherwise specified, only the horizontal component is considered." ;
+  skos:inScheme hip:hips ;
   skos:prefLabel "Wind"@en ;
   hipo:additional-description "A three-dimensional vector quantity with small-scale random fluctuations in space and time superimposed upon a larger-scale organized flow. It is considered in this form in relation to, for example, airborne pollution and the landing of aircraft. For the purpose of the present Guide, however, surface wind will be considered mainly as a two-dimensional vector quantity specified by two numbers representing direction and speed. The extent to which wind is characterized by rapid fluctuations is referred to as gustiness, and single fluctuations are called gusts. (WMO 2008)" ;
   hipo:coordinator <https://wmo.int> ;
