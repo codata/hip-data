@@ -40,8 +40,8 @@ hip:Asha
 hip:BI0001
   a hipo:HIP ;
   dct:references "Anderson, D.M., 2009. Approaches to monitoring, control and management of harmful algal blooms (HABs). Ocean & Coastal Management, 52:342. doi:10.1016/j.ocecoaman.2009.04.006 "@en ;
-  dct:references "FAO, 2012. The State of World Fisheries and Aquaculture. Food and Agriculture Organization of the United Nations (FAO). www. fao.org/3/i2727e/i2727e.pdf Accessed 23 December 2020."@en ;
   dct:references "FAO and WHO, 2020. Report of the Expert Meeting on Ciguatera Poisoning. Rome, 19–23 November 2018. Food and Agriculture Organization of the United Nations (FAO) and World Health Organization (WHO). https://apps.who.int/iris/bitstream/hand le/10665/332640/9789240006294-eng.pdf?sequence=1&isAllowed=y Accessed 23 December 2020."@en ;
+  dct:references "FAO, 2012. The State of World Fisheries and Aquaculture. Food and Agriculture Organization of the United Nations (FAO). www. fao.org/3/i2727e/i2727e.pdf Accessed 23 December 2020."@en ;
   dct:references "Kudela, R., E. Berdalet, S. Bernard, M. Burford, L. Fernand, S. Lu, S. Roy, G. Usup, P. Tester, R. Magnien, D. Anderson, A. Cembella, M. Chinain, G. Hallegraeff, B. Reguera, A. Zingone, H. Enevoldsen and E. Urban, 2015. Harmful Algal Blooms. A scientific summary for policy makers. https://unesdoc.unesco.org/ark:/48223/pf0000233419 Accessed 11 October 2020."@en ;
   dct:references "NOAA, 2016. What is a Harmful Algal Bloom? National Oceanic and Atmospheric Administration (NOAA). www.noaa.gov/whatis- harmful-algal-bloom Accessed 9 April 2021."@en ;
   dct:references "UNESCO, 2015. Addressing the impacts of Harmful Algal Blooms on water security. https://en.unesco.org/news/addressingimpacts- harmful-algal-blooms-water-security Accessed 11 October 2020."@en ;
@@ -539,8 +539,8 @@ hip:BI0019
   dct:references "WHO, 2006. Five Keys to Safer Food Manual. World Health Organization (WHO). www.who.int/publications/iitem/9789241594639 Accessed 19 September 2020."@en ;
   dct:references "WHO, 2016. International Health Regulations (2005), 3rd ed. World Health Organization (WHO). https://apps.who.int/irishandle/10665/246107 Accessed 26 September 2020."@en ;
   dct:references "WHO, no date. Foodborne diseases. World Health Organization (WHO). www.who.int/health-topics/foodbornediseases# tab=tab_1 Accessed 19 September 2020."@en ;
-  dct:source "WHO, no date. Foodborne Diseases. World Health Organization (WHO). www.who.int/health-topics/ foodborne-diseases#tab=tab_1 Accessed 7 April 2021. "@en ;
   dct:source "WHO, 2012. Disease information. World Health Organization (WHO). www.who.int/travel-advice/ disease-information Accessed 19 September 2020."@en ;
+  dct:source "WHO, no date. Foodborne Diseases. World Health Organization (WHO). www.who.int/health-topics/ foodborne-diseases#tab=tab_1 Accessed 7 April 2021. "@en ;
   skos:broader hip:Infectious-Diseases--Human-and-Animal- ;
   skos:definition "Foodborne diseases are transmitted by consumption of contaminated biological food and drink (WHO, 2012). These diseases are caused by eating food contaminated with bacteria, viruses, parasites or chemical substances (WHO, no date)."@en ;
   skos:notation "BI0019" ;
@@ -582,8 +582,8 @@ hip:BI0021
   dct:references "WHO, 2016. International Health Regulations (2005), 3rd ed. World Health Organization (WHO). https://apps.who.int/irishandle/10665/246107 Accessed 26 September 2020."@en ;
   dct:references "WHO, 2020. Ending the neglect to attain the sustainable development goals: a road map for neglected tropical diseases 2021–2030: overview. World Health Organization (WHO). https://apps.who.int/iris/handle/10665/332094"@en ;
   dct:references "WHO, no date. Neglected Tropical Diseases. World Health Organization (WHO). www.who.int/neglected_diseases/diseases/en Accessed 14 September 2020."@en ;
-  dct:source "WHO, no date. Neglected Tropical Diseases. World Health Organization (WHO). www.who.int/ neglected_diseases/diseases/en Accessed 14 September 2020. "@en ;
   dct:source "WHO, 2020 . Ending the neglect to attain the sustainable development goals: a road map for neglected tropical diseases 2021–2030: overview. World Health Organization (WHO). https://apps. who.int/iris/handle/10665/332094"@en ;
+  dct:source "WHO, no date. Neglected Tropical Diseases. World Health Organization (WHO). www.who.int/ neglected_diseases/diseases/en Accessed 14 September 2020. "@en ;
   skos:broader hip:Infectious-Diseases--Human-and-Animal- ;
   skos:definition "Neglected tropical diseases (NTDs) are a diverse group of communicable diseases caused by bacteria, viruses or parasites that prevail in tropical and subtropical conditions (WHO, no date). Twenty diseases and disease groups are addressed in the global roadmap for NTDs 2021–2030 (WHO, 2020)."@en ;
   skos:notation "BI0021" ;
@@ -694,8 +694,8 @@ hip:BI0026
   dct:references "Fa, J.E., J.H. Wright, S.M. Funk, A.L. Márquez, J. Olivero, M.A. Farfán, F. Guio, L. Mayet, D. Malekani, C.H. Louzolo, R. Mwinyihali, D.S. Wilkie and M. Wieland, 2019. Mapping the availability of bushmeat for consumption in Central African cities. Environmental Research Letters, 14:094002."@en ;
   dct:references "OIE and IUCN, 2014. Guidelines for Wildlife Disease Risk Analysis. World Organisation for Animal Health (OIE) & International Union for Conservation of Nature (IUCN). Accessed 27 October 2020."@en ;
   dct:references "Tomley, F.M. and M.W. Shirley, 2009. Livestock infectious diseases and zoonoses. Philosophical Transactions of the Royal Society of London B, 364:2637-2642."@en ;
-  dct:source "Tomley, F.M. and M.W. Shirley, 2009. Livestock infectious diseases and zoonoses. Philosophical Transactions of the Royal Society of London B, 364:2637-2642. "@en ;
   dct:source "Britannica, 2021. Zoonotic Disease: Pathology. www.britannica.com/science/zoonotic-disease Accessed 30 April 2021."@en ;
+  dct:source "Tomley, F.M. and M.W. Shirley, 2009. Livestock infectious diseases and zoonoses. Philosophical Transactions of the Royal Society of London B, 364:2637-2642. "@en ;
   skos:broader hip:Infectious-Diseases--Human-and-Animal- ;
   skos:definition "Animal disease is an impairment of the normal state of an animal that interrupts or modifies its vital function. Infectious diseases of livestock and wildlife are a major threat to global animal health and welfare and their effective control is crucial for agronomic health, for safeguarding and securing national and international food supplies and for alleviating rural poverty in developing countries. This hazard information profile focusses on animal diseases not including zoonoses (Britannica, 2021; adapted from Tomley and Shirley, 2009)."@en ;
   skos:notation "BI0026" ;
@@ -732,8 +732,8 @@ hip:BI0028
   a hipo:HIP ;
   dct:references "WHO, 2016 . International Health Regulations (2005), 3rd ed. World Health Organization (WHO). https://apps.who.int/irishandle/10665/246107 Accessed 26 September 2020."@en ;
   dct:references "WHO, 2017. Diarrhoeal disease. World Health Organization (WHO). www.who.int/news-room/fact-sheets/detail/diarrhoealdisease Accessed 20 September 2020."@en ;
-  dct:source "WHO, no date. Diarrhoea. World Health Organization (WHO). www.who.int/topics/diarrhoea/en Accessed 20 September 2020. "@en ;
   dct:source "WHO, 2017. Diarrhoeal disease. World Health Organization (WHO). www.who.int/news-room/factsheets/ detail/diarrhoeal-disease Accessed 20 September 2020."@en ;
+  dct:source "WHO, no date. Diarrhoea. World Health Organization (WHO). www.who.int/topics/diarrhoea/en Accessed 20 September 2020. "@en ;
   skos:broader hip:Infectious-Diseases--Human-and-Animal- ;
   skos:definition "Diarrhoeal diseases are infectious diseases, contaminants and other causes of diarrhoea. Diarrhoea is defined as the passage of three or more loose or liquid stools per day, or more frequently than is normal for the individual (WHO, no date). This includes the three clinical types of diarrhoea: acute watery diarrhoea – lasts several hours or days, and includes cholera; acute bloody diarrhoea – also called dysentery; and persistent diarrhoea – lasts 14 days or longer (WHO, 2017)."@en ;
   skos:notation "BI0028" ;
@@ -854,12 +854,12 @@ hip:BI0033
 .
 hip:BI0034
   a hipo:HIP ;
+  dct:references "WHO, 2014. Cholera surveillance to inform OCV vaccination campaigns: “Working copy”. World Health Organization (WHO). www.who.int/cholera/vaccines/surveillance_protocol.pdf?ua=1 Accessed 15 November 2019."@en ;
   dct:references "WHO, 2016. International Health Regulations (2005), 3rd Ed. World Health Organization (WHO). www.who.int/ihr/publications9789241580496/en Accessed 3 October 2020."@en ;
   dct:references "WHO, 2017. Ending Cholera: A Global Roadmap to 2030. World Health Organization (WHO). www.who.int/cholera/publicationsglobal-roadmap/en Accessed 15 November 2019."@en ;
   dct:references "WHO, 2019. Cholera. World Health Organization (WHO). www.who.int/news-room/fact-sheets/detail/cholera Accessed 4 November 2020."@en ;
   dct:references "WHO, 2021. Cholera. World Health Organization (WHO). www.who.int/news-room/fact-sheets/detail/cholera#:~:text=Under%20 the%20International%20Health%20Regulations%2C%20notification%20of%20all,need%20for%20official%20notification.%20 Water%20and%20sanitation%20interventions Accessed 7 April 2021."@en ;
   dct:references "WHO, no date. Oral cholera vaccines. World Health Organization (WHO). www.who.int/cholera/vaccines/en Accessed 15 November 2019. "@en ;
-  dct:references "WHO, 2014. Cholera surveillance to inform OCV vaccination campaigns: “Working copy”. World Health Organization (WHO). www.who.int/cholera/vaccines/surveillance_protocol.pdf?ua=1 Accessed 15 November 2019."@en ;
   dct:source "WHO, 2019. Cholera. World Health Organization (WHO). www.who.int/news-room/fact-sheets/ detail/cholera Accessed 4 November 2020."@en ;
   skos:broader hip:Infectious-Diseases--Human-and-Animal- ;
   skos:definition "Cholera is an acute diarrhoeal infection caused by ingestion of food or water contaminated with the bacterium Vibrio cholerae. Cholera remains a global threat to public health (WHO, 2019)."@en ;
@@ -1018,11 +1018,11 @@ hip:BI0042
   dct:references "FAO, 2015. Biosecurity Guide For Live Poultry Markets. Food and Agriculture Organization of the United Nations (FAO). www. fao.org/3/I5029E/i5029e.pdf Accessed 3 October 2020."@en ;
   dct:references "FAO, 2016. Highly pathogenic avian influenza (H5N1 HPAI) spread in the Middle East: Risk assessment. Food and Agriculture Organization of the United Nations (FAO). www.fao.org/3/a-i6155e.pdf Accessed 3 October 2020."@en ;
   dct:references "FAO, 2017. Highly pathogenic H5 avian influenza in 2016 and 2017 – observations and future perspectives. Food and Agriculture Organization of the United Nations (FAO). www.fao.org/3/a-i8068e.pdf Accessed 3 October 2020. "@en ;
-  dct:references "OIE, no date a. Avian Influenza “at a glance”. World Organisation for Animal Health (OIE). www.oie.int/animal-health-in-theworldavian-influenza-portal Accessed 3 October 2020."@en ;
   dct:references "FAO, no date. About Codex Alimentarius. Food and Agriculture Organization of the United Nations (FAO). www.fao.org/fao-whocodexalimentariusabout-codex/en Accessed 19 September 2020."@en ;
   dct:references "OIE, 2016. Avian Influenza: Fowl Plague, Grippe Aviaire. World Organisation for Animal Health (OIE). www.oie.int/fileadminHome/eng/Animal_Health_in_the_World/docs/pdf/Disease_cards/HPAI.pdf Accessed 3 October 2020."@en ;
   dct:references "OIE, 2017. Infection with avian influenza viruses. In: Terrestrial Animal Health Code. World Organisation for Animal Health (OIE). www.oie.int/index.php?id=169&L=0&htmfile=chapitre_avian_influenza_viruses.htm Accessed 3 October 2020."@en ;
   dct:references "OIE, 2019. Terrestrial Animal Health Code. World Organisation for Animal Health (OIE). www.oie.int/standard-setting/terrestrialcodeaccess-online Accessed 3 October 2020."@en ;
+  dct:references "OIE, no date a. Avian Influenza “at a glance”. World Organisation for Animal Health (OIE). www.oie.int/animal-health-in-theworldavian-influenza-portal Accessed 3 October 2020."@en ;
   dct:references "OIE, no date b. Avian Influenza. World Organisation for Animal Health (OIE). www.oie.int/en/disease/avian-influenza Accessed 1 May 2021."@en ;
   dct:references "UNECE, no date. UN Recommendations on the Transport of Dangerous Goods - UN Model Regulations Model Regulations Nature, Purpose and Significance of the Recommendations. United Nations Economic Commission for Europe (UNECE). www. unece.org/trans/danger/publi/unrec/rev13/13nature_e.html Accessed 3 October 2020."@en ;
   dct:references "WHO, 2016. International Health Regulations (2005), 3rd Ed. World Health Organization (WHO). www.who.int/ihr/publications9789241580496/en Accessed 3 October 2020."@en ;
@@ -1030,8 +1030,8 @@ hip:BI0042
   dct:references "WTO, 1994. The WTO Agreement on the Application of Sanitary and Phytosanitary Measures (SPS Agreement). World Trade Organization (WTO). www.wto.org/english/tratop_e/sps_e/spsagr_e.htm Accessed 3 October 2020."@en ;
   dct:references "WTO, 1998. The WTO and the World Organization for Animal Health (OIE). G/SPS/GEN/775. World Trade Organization (WTO). www.wto.org/english/thewto_e/coher_e/wto_oie_e.htm Accessed 3 October 2020."@en ;
   dct:source "FAO, 2009. Preparing for Highly Pathogenic Avian Influenza. Food and Agriculture Organization of the United Nations (FAO). www.fao.org/3/i0808e/i0808e.pdf Accessed 3 October 2020. "@en ;
-  dct:source "WHO, 2018. Influenza (Avian and other zoonotic). World Health Organization (WHO). www.who.int/ en/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic) Accessed 3 October 2020. "@en ;
   dct:source "OIE, 2020. Avian Influenza “at a glance”. World Organisation for Animal Health (OIE). www.oie.int/ animal-health-in-the-world/avian-influenza-portal Accessed 3 October 2020."@en ;
+  dct:source "WHO, 2018. Influenza (Avian and other zoonotic). World Health Organization (WHO). www.who.int/ en/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic) Accessed 3 October 2020. "@en ;
   skos:altLabel "Avian Flu."@en ;
   skos:altLabel "Bird Flu"@en ;
   skos:broader hip:Infectious-Diseases--Human-and-Animal- ;
@@ -1118,8 +1118,8 @@ hip:BI0046
   dct:references "WHO, 2020b. Leptospirosis Burden Epidemiology Reference Group (LERG). World Health Organization. www.who.intzoonoses/diseases/lerg/en/#:~:text=The%20Leptospirosis%20Burden%20Epidemiology%20Reference%20Group%20 %28LERG%29%2C%20established,policy%20targeted%20towards%20decreasing%20the%20burden%20of%20Leptospirosis Accessed 6 October 2020."@en ;
   dct:references "WHO, no date. Leptospirosis Fact Sheet. World Health Organization (WHO). https://apps.who.int/iris/bitstream/handle10665/205437/B4221.pdf?sequence=1&isAllowed=y Accessed 8 April 2021."@en ;
   dct:references "Yang, C.-W., 2007. Leptospirosis renal disease: Understanding the initiation by Toll-like receptors. Kidney International, 72:918- 925"@en ;
-  dct:source "WHO, 2020. Leptospirosis. World Health Organization (WHO). www.who.int/topics/leptospirosis/en Accessed 6 October 2020. "@en ;
   dct:source "WHO and ILS, 2003. Guidance for Diagnosis, Surveillance and Control. World Health Organization (WHO) and International Leptospirosis Society (ILS). https://apps.who.int/iris/bitstream/ handle/10665/42667/WHO_CDS_CSR_EPH_2002.23.pdf;jsessionid=3CA0C2710D780BDEFC35B49 2EBB4242F?sequence=1 Accessed 6 October 2020."@en ;
+  dct:source "WHO, 2020. Leptospirosis. World Health Organization (WHO). www.who.int/topics/leptospirosis/en Accessed 6 October 2020. "@en ;
   skos:broader hip:Infectious-Diseases--Human-and-Animal- ;
   skos:definition "Leptospirosis is an infectious disease caused by pathogenic Spirochaetes of the genus Leptospira. These bacteria called leptospires affect both humans and animals. Humans become infected through direct contact with the urine of infected animals or with a urinecontaminated environment. It is a zoonosis. Human-to-human transmission occurs only very rarely (adapted from WHO and ILS, 2003 and WHO, 2020)."@en ;
   skos:notation "BI0046" ;
@@ -2205,8 +2205,8 @@ hip:CH0001
   dct:references "WHO, 1986. Environmental Health Criteria 54: Ammonia. 10.4, Accidental exposure. International Programme on Chemical Safety, World Health Organization(WHO). www.inchem.org/documents/ehc/ehc/ehc54.htm#SectionNumber:10.4 Accessed 2 December 2019."@en ;
   dct:references "WHO, 1990. Health and Safety Guide no 37: Ammonia. International Programme on Chemical Safety, World Health Organization(WHO). www.inchem.org/documents/hsg/hsg/hsg037.htm Accessed 2 December 2019."@en ;
   dct:references "WHO, 2011. Guideline for Drinking Water Quality, Fourth Edition. World Health Organization(WHO). apps.who.int/iris/bitstreamhandle/10665/44584/9789241548151_eng.pdf?sequence=1 Accessed 2 December 2019."@en ;
-  dct:source "WHO, 1986. Environmental Health Criteria 54: Ammonia. 10.4, Accidental exposure. International Programme on Chemical Safety, World Health Organization(WHO). www.inchem.org/documents/ ehc/ehc/ehc54.htm#SectionNumber:10.4 Accessed 2 December 2019. "@en ;
   dct:source "PHE, 2019. Ammonia: Health effects, incident management and toxicology. Public Health England (PHE). www.gov.uk/government/publications/ammonia-properties-incident-management-andtoxicology Accessed 3 September 2020."@en ;
+  dct:source "WHO, 1986. Environmental Health Criteria 54: Ammonia. 10.4, Accidental exposure. International Programme on Chemical Safety, World Health Organization(WHO). www.inchem.org/documents/ ehc/ehc/ehc54.htm#SectionNumber:10.4 Accessed 2 December 2019. "@en ;
   skos:altLabel "Ammonia gas"@en ;
   skos:altLabel "Anhydrous ammonia"@en ;
   skos:altLabel "Azane."@en ;
@@ -2371,8 +2371,8 @@ hip:CH0009
   dct:references "FAO and WHO, no date a. Codex Alimentarius. Database for Maximum Residue Limits for Pesticides in Food and Feed. Food and Agriculture Organization of the United Nations (FAO) and World Health Organization (WHO). www.fao.org/fao-whocodexalimentariuscodex-texts/dbs/en Accessed 2 November 2020."@en ;
   dct:references "FAO and WHO, no date b. About Codex Alimentarius. Food and Agriculture Organization of the United Nations (FAO) and World Health Organization (WHO). www.fao.org/fao-who-codexalimentarius/about-codex/en Accessed 2 November 2020."@en ;
   dct:references "FAO, no date. Definitions for the Purposes of the Codex Alimentarius. Food and Agriculture Organization of the United Nations (FAO). www.fao.org/3/w5975e/w5975e07.htm"@en ;
-  dct:source "FAO and WHO, no date. Codex Alimentarius. Database for Maximum Residue Limits for Pesticides in Food and Feed. Food and Agriculture Organization of the United Nations (FAO) and World Health Organization (WHO). www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/en Accessed 2 November 2020. "@en ;
   dct:source "FAO and WHO, 2019. Codex Alimentarius Procedural Manual. 27th Edition. Food and Agriculture Organization of the United Nations (FAO) and World Health Organization (WHO). www.fao.org/ fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/ Shared%20Documents/Publications/Procedural%20Manual/Manual_27/PM27_2019e.pdf Accessed 2 November 2020."@en ;
+  dct:source "FAO and WHO, no date. Codex Alimentarius. Database for Maximum Residue Limits for Pesticides in Food and Feed. Food and Agriculture Organization of the United Nations (FAO) and World Health Organization (WHO). www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/en Accessed 2 November 2020. "@en ;
   skos:broader hip:Pesticides ;
   skos:definition "Pesticide residue means any specified substance in food, agricultural commodities, or animal feed resulting from the use of a pesticide. The term includes any derivatives of a pesticide, such as conversion products, metabolites, reaction products, and impurities considered to be of toxicological significance (FAO and WHO, no date, 2019)."@en ;
   skos:notation "CH0009" ;
@@ -2421,8 +2421,8 @@ hip:CH0011
   a hipo:HIP ;
   dct:references "ATSDR, 2003. Agency for Toxic Substances and Disease Registry (2003). Public Health Statement for Pyrethrins and Pyrethroids. www.atsdr.cdc.gov/phs/phs.asp?id=785&tid=153 Accessed 26 October 2020."@en ;
   dct:references "CDC, 2019. Pesticide Exposures. Centres for Disease Control and Prevention (CDC). https://ephtracking.cdc.gov/showpesticideFungicides Accessed 25 October 2020. "@en ;
-  dct:references "FAO, no date. Pesticide Registration Toolkit: Maximum Residue Limits. Food and Agriculture Organization of the United Nations (FAO). www.fao.org/pesticide-registration-toolkit/information-sources/maximum-residue-limits/en"@en ;
   dct:references "FAO and WHO, 2015. International Code of Conduct on Pesticide Management: Guidelines on Good Labelling Practice for Pesticides (revised). August 2015."@en ;
+  dct:references "FAO, no date. Pesticide Registration Toolkit: Maximum Residue Limits. Food and Agriculture Organization of the United Nations (FAO). www.fao.org/pesticide-registration-toolkit/information-sources/maximum-residue-limits/en"@en ;
   dct:references "Food and Agriculture Organization of the United Nations (FAO) and World Health Organization (WHO). www.fao.org/3/a-i4854e.pdf"@en ;
   dct:references "UNEP, 2010. Rotterdam Convention on hazard chemicals including severely hazardous pesticide formulations. United Nations Environment Programme (UNEP). www.pic.int/TheConvention/Chemicals/AnnexIIIChemicals/tabid/1132/language/en-USDefault.aspx Accessed 25 October 2020."@en ;
   dct:references "UNEP, 2019. The Stockholm Convention on Persistent Organic Pollutants. United Nations Environment Programme (UNEP). www.pops.int/TheConvention/Overview/tabid/3351/Default.aspx Accessed 25 October 2020."@en ;
@@ -2471,8 +2471,8 @@ hip:CH0014
   dct:references "UNEP, 2016. Marine plastic debris and microplastics: Global lessons and research to inspire action and guide policy change. United Nations Environment Programme (UNEP). https://wedocs.unep.org/handle/20.500.11822/7720?show=full Accessed 14 October 2020."@en ;
   dct:references "UNEP, no date. Microplastics. United Nations Environment Programme (UNEP). https://wedocs.unep.org/bitstream/handle20.500.11822/12079/brochure-microplastics.pdf Accessed 14 October 2020."@en ;
   dct:references "WHO, 2020. Microplastics in Drinking Water. World Health Organization (WHO). www.who.int/publications/iitem/9789241516198 Accessed 30 April 2021."@en ;
-  dct:source "UNEP, 2016. Marine plastic debris and microplastics: Global lessons and research to inspire action and guide policy change. United Nations Environment Programme (UNEP). https://wedocs.unep. org/handle/20.500.11822/7720?show=full Accessed 14 October 2020. "@en ;
   dct:source "NOAA, no date. What are microplastics? National Oceanic and Atmospheric Administration (NOAA). https://oceanservice.noaa.gov/facts/microplastics.html Accessed 14 October 2020."@en ;
+  dct:source "UNEP, 2016. Marine plastic debris and microplastics: Global lessons and research to inspire action and guide policy change. United Nations Environment Programme (UNEP). https://wedocs.unep. org/handle/20.500.11822/7720?show=full Accessed 14 October 2020. "@en ;
   skos:altLabel "Marine debris."@en ;
   skos:altLabel "Nanoparticles"@en ;
   skos:broader hip:Persistent-Organic-Pollutants--POPs- ;
@@ -2989,8 +2989,8 @@ hip:EN0008
   dct:references "Convention on International Trade in Endangered Species of Wild Fauna and Flora (1973). What is CITES? www.cites.org/engdisc/what.php Accessed 20 December 2019. "@en ;
   dct:references "Convention on the Conservation of Migratory Species of Wild Animals, 1979. www.cms.int/sites/default/files/instrument/CMStext. en_.PDF Accessed 29 January 2020."@en ;
   dct:references "IPBES, 2019. The global assessment report on biodiversity and ecosystem services: Summary for policymakers. Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES). ipbes.net/system/tdf/ipbes_global_assessment_ report_summary_for_policymakers.pdf?file=1&type=node&id=35329 Accessed 20 December 2019."@en ;
-  dct:references "Ramsar, 2014. About the Ramsar Convention. www.ramsar.org/about-the-convention-on-wetlands-0 Accessed 20 December 2019 "@en ;
   dct:references "Ramsar Convention, 1971. Convention on Wetlands of International Importance especially as Waterfowl Habitat 1971. http:/portal.unesco.org/en/ev.php-URL_ID=15398&URL_DO=DO_TOPIC&URL_SECTION=201.html Accessed 29 January 2020."@en ;
+  dct:references "Ramsar, 2014. About the Ramsar Convention. www.ramsar.org/about-the-convention-on-wetlands-0 Accessed 20 December 2019 "@en ;
   dct:references "Rockström, J., W.L. Steffen, K. Noone and 26 others, 2009. Planetary boundaries: exploring the safe operating space for humanity. Ecology and Society, 14:32. www.ecologyandsociety.org/vol14/iss2/art32"@en ;
   dct:references "Steffen, W., K. Richardson, J. Rockström, S.E. Cornell and 14 others, 2015. Planetary boundaries: Guiding human development on a changing planet. Science, 347:736, 1259855."@en ;
   dct:references "Stockholm Resilience Centre, no date. The nine planetary boundaries. www.stockholmresilience.org/research/planetaryboundariesplanetary-boundaries/about-the-research/the-nine-planetary-boundaries.html Accessed 20 December 2019."@en ;
@@ -3020,10 +3020,10 @@ hip:EN0009
   a hipo:HIP ;
   dct:references "CBD, 1992. Convention on Biological Diversity. www.cbd.int/doc/legal/cbd-en.pdf Accessed 26 October 2020."@en ;
   dct:references "FAO and UNEP, 2020. The State of the World’s Forests 2020. Forests, biodiversity and people. Food and Agriculture Organization of the United Nations (FAO) and United Nations Environment Programme (UNEP). https://doi.org/10.4060/ca8642en Accessed 13 October 2020."@en ;
+  dct:references "FAO, 2007. Manual on Deforestation, Degradation, and Fragmentation Using Remote Sensing and GIS. Food and Agriculture Organization of the United Nations (FAO). Working Paper 5. www.fao.org/forestry/18222-045c26b711a976bb9d- 0d17386ee8f0e37.pdf Accessed 13 October 2020."@en ;
   dct:references "FAO, 2020a. Global Forest Resources Assessment 2020. Main report. https://doi.org/10.4060/ca9825en Accessed 27 October 2020"@en ;
   dct:references "FAO, 2020b. Global Forest Resources Assessment 2020. Terms and Definitions FRA 2020. Food and Agriculture Organization of the United Nations (FAO). Forest Resources Assessment Working Paper No. 189. http://www.fao.org/3/I8699EN/i8699en.pdf Accessed 26 October 2020."@en ;
   dct:references "FAO, no date. Global Forest Resources Assessment. https://fra-data.fao.org "@en ;
-  dct:references "FAO, 2007. Manual on Deforestation, Degradation, and Fragmentation Using Remote Sensing and GIS. Food and Agriculture Organization of the United Nations (FAO). Working Paper 5. www.fao.org/forestry/18222-045c26b711a976bb9d- 0d17386ee8f0e37.pdf Accessed 13 October 2020."@en ;
   dct:references "UNCDD, 2017. United Nations Convention to Combat Desertification (UNCDD). https://www.unccd.int/sites/default/filesrelevant-links/2017-01/UNCCD_Convention_ENG_0.pdf Accessed on 19 October 2020."@en ;
   dct:references "UNFCCC, 2015. Paris Agreement. United Nations Framework Convention on Climate Change (UNFCCC). https://unfccc.int/filesessential_background/convention/application/pdf/english_paris_agreement.pdf Accessed 13 October 2020."@en ;
   dct:source "FAO, 2020. Global Forest Resources Assessment 2020. Terms and Definitions "@en ;
@@ -3084,8 +3084,8 @@ hip:EN0011
   dct:references "UNFCCC, 2015. Paris Agreement. United Nations Framework Convention on Climate Change (UNGCC). https://unfccc.int/filesessential_background/convention/application/pdf/english_paris_agreement.pdf"@en ;
   dct:references "US EPA, no date. Acid Rain: Acid Rain Basics. United States Environmental Protection Agency (US EPA). www.epa.gov/acidrain Accessed 26 October 2020."@en ;
   dct:source "FAO, 2018. Global Forest Resources Assessment 2020. Terms and Definitions "@en ;
-  dct:source "FRA 2020. Food and Agricultural Organisation of the United Nations (FAO), Forest Resources Assessment Working Paper No. 188. www.fao.org/3/I8661EN/i8661en.pdf Accessed 24 October 2020. "@en ;
   dct:source "FAO, 2020. Global Forest Resources Assessment 2020: Main report. Food and Agricultural Organisation of the United Nations (FAO) https://doi.org/10.4060/ca9825en Accessed 25 October 2020"@en ;
+  dct:source "FRA 2020. Food and Agricultural Organisation of the United Nations (FAO), Forest Resources Assessment Working Paper No. 188. www.fao.org/3/I8661EN/i8661en.pdf Accessed 24 October 2020. "@en ;
   skos:broader hip:Environmental-Degradation ;
   skos:definition "Forest disturbance is the damage caused by any factor (biotic or abiotic) that adversely affects the vigour and productivity of the forest and which is not a direct result of human activities. It includes disturbance by insect pests, diseases, severe weather events and fires (FAO, 2018, 2020)."@en ;
   skos:notation "EN0011" ;
@@ -4068,7 +4068,7 @@ hip:GH0009
   dct:source "Kilburn, C.R.J., 2015. Lava flow hazards and modelling. In: Sigurdsson, H., B. Houghton, H. Rymer et al. (eds.), The Encyclopedia of Volcanoes, 2nd Edn. pp. 957-969. Academic Press."@en ;
   skos:altLabel "Lava effusions"@en ;
   skos:altLabel "Lavas."@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "A lava flow or lava dome is a body of lava that forms during an eruption, or main eruptive episode. Lava flows are outpourings of fluid, relatively low-viscosity molten rock, whereas a lava dome is a pile of relatively viscous lava that cannot flow far from the vent (Calder et al., 2015; Kilburn, 2015)."@en ;
   skos:notation "GH0009" ;
   skos:prefLabel "Lava Flows (Lava Domes)"@en ;
@@ -4109,7 +4109,7 @@ hip:GH0010
   skos:altLabel "Bombs."@en ;
   skos:altLabel "Lapilli"@en ;
   skos:altLabel "Pyroclast"@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "Tephra is a collective term for fragmented magma and old (i.e., preexisting) rocks ejected into the atmosphere from volcanic vents during an explosive eruption, irrespective of size, composition and shape (BGS, no date). The term ‘volcanic ash’ refers to the finest particles of tephra (less than 2 mm diameter)."@en ;
   skos:notation "GH0010" ;
   skos:prefLabel "Ash/Tephra Fall (Physical and Chemical)"@en ;
@@ -4145,7 +4145,7 @@ hip:GH0011
   dct:source "Biass, S., J.-L. Falcone, C. Bonadonna, F. Di Traglia, M. Pistolesi, M. Riso and P. Lestuzzi, 2016. Great Balls of Fire: A probabilistic approach to quantify the hazard related to ballistics – A case study at La Foss volcano, Vulcano Island, Italy. Journal of Volcanology and Geothermal Research, 325:1-14. "@en ;
   dct:source "Bonadonna, C., S. Biass, S. Menoni and C.E. Gregg, 2021. Assessment of risk associated with tephra-related hazards. In: Papale, P. (ed), Forecasting and Planning for Volcanic Hazards, Risks, and Disasters. Chapter 8."@en ;
   skos:altLabel "Projectiles."@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "Ballistics comprise fragments of magma and old (i.e., pre-existing) rocks ejected during an explosive eruption at variable velocity and angle on cannon ball-like trajectories; they are not entrained within the volcanic plume and are dispersed in proximity to the vent (typically <5 km) (adapted from Biass et al., 2016 and Bonadonna et al., 2021)."@en ;
   skos:notation "GH0011" ;
   skos:prefLabel "Ballistics (Volcanic)"@en ;
@@ -4189,7 +4189,7 @@ hip:GH0012
   skos:altLabel "Hot avalanche."@en ;
   skos:altLabel "Nuée ardente"@en ;
   skos:altLabel "Pyroclastic flow"@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "Pyroclastic density currents are hot, fast-moving mixtures of volcanic particles and gas that flow according to their density relative to the surrounding medium and the Earth’s gravity. They typically originate from the gravitational collapse of explosive eruption columns, lava domes or lava-flow fronts, and from explosive lateral blasts (adapted from Branney and Kokelaar, 2002 and Cole et al., 2015)."@en ;
   skos:notation "GH0012" ;
   skos:prefLabel "Pyroclastic Density Current"@en ;
@@ -4217,7 +4217,7 @@ hip:GH0013
   dct:source "Vallance, J.W. and R.M. Iverson, 2015. Lahars and their deposits. In: Sigurdsson, H., B. Houghton, S. McNutt et al. (eds.). The Encyclopedia of Volcanoes, 2nd Ed. Academic Press, pp. 649-664."@en ;
   skos:altLabel "Debris flow"@en ;
   skos:altLabel "Volcanic mudflow."@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "Lahars are discrete, rapid, gravity-driven, water-saturated flows containing water and solid particles of volcanic rock, sediment, ice, wood, and other debris that originate at volcanoes (Gudmundsson, 2015; Vallance and Iverson, 2015)."@en ;
   skos:notation "GH0013" ;
   skos:prefLabel "Debris Flow/Lahars/Floods"@en ;
@@ -4246,7 +4246,7 @@ hip:GH0014
   skos:altLabel "Mass Movement"@en ;
   skos:altLabel "Mass wasting"@en ;
   skos:altLabel "Slip."@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "A landslide is the downslope movement of soil, rock and organic materials under the effects of gravity, which occurs when the gravitational driving forces exceed the frictional resistance of the material resisting on the slope. Landslides could be terrestrial or submarine (Varnes, 1978)."@en ;
   skos:notation "GH0014" ;
   skos:prefLabel "Landslide (Volcanic Trigger)"@en ;
@@ -4276,7 +4276,7 @@ hip:GH0015
   skos:altLabel "Ground motion"@en ;
   skos:altLabel "Ground movement"@en ;
   skos:altLabel "Ground velocity."@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "Ground shaking is the movement of the Earth’s surface from earthquakes. Ground shaking is produced by waves that travel through the earth and along its surface (USGS, no date). A volcanic earthquake is any earthquake that results from tectonic forces which occur in conjunction with volcanic activity (UN-SPIDER, no date)."@en ;
   skos:notation "GH0015" ;
   skos:prefLabel "Ground Shaking (Volcanic Earthquake)"@en ;
@@ -4314,7 +4314,7 @@ hip:GH0016
   skos:altLabel "Volatiles"@en ;
   skos:altLabel "Volcanic gases: Vapours"@en ;
   skos:altLabel "used mostly in Hawaii)."@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "Volcanic gas includes any gas-phase substance that is emitted by volcanic or volcanic-geothermal activity. Volcanic aerosols include liquid or solid particles that are small enough to be suspended in the air, and that are emitted by volcanic or volcanic-geothermal activity (adapted from Baxter and Horwell, 2015, Fischer and Chiodini 2015, and Williams- Jones and Rymer 2015)."@en ;
   skos:notation "GH0016" ;
   skos:prefLabel "Volcanic Gases and Aerosols"@en ;
@@ -4337,7 +4337,7 @@ hip:GH0017
   dct:references "UNDRR, 2017. Words into Action Guidelines: National Disaster Risk Assessment Tsunami hazard and risk assessment. www. preventionweb.net/files/52828_02tsunamihazardandriskassessment.pdf Accessed 14 October 2020."@en ;
   dct:references "UNDRR, 2020. World Tsunami Awareness Day. http://itic.ioc-unesco.org/index.php?option=com_content&view=category&lay out=blog&id=2262&Itemid=2782#:~:text=The%20United%20Nations%2C%20through%20UN%20Resolution%2070%2F203%20 adopted,the%20Sendai%20Framework%20for%20Disaster%20Risk%20Reduction%202015-2030 Accessed 21 April 2021"@en ;
   dct:source "Day, S., 2015. Volcanic Tsunamis. The Encyclopedia of Volcanoes, 2nd Ed."@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "Volcano tsunamis (pronounced soo-ná-mees), are a series of waves created when water surrounding a volcano is displaced following an eruption, a landslide, or failure of a volcanic edifice into surrounding water. If the generating mechanism is large enough, the waves can be significant on local, regional or even transoceanic scales (Day, 2015)."@en ;
   skos:notation "GH0017" ;
   skos:prefLabel "Tsunami (Volcanic Trigger)"@en ;
@@ -4368,7 +4368,7 @@ hip:GH0018
   skos:altLabel "Near-vent lightning."@en ;
   skos:altLabel "Plume lightning"@en ;
   skos:altLabel "Vent discharges"@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "Volcanic lightning is an electrical discharge caused by a volcanic eruption. It is typically associated with ash-rich eruption plumes but can also arise from a range of volcanic processes including ground-hugging ash flows and lava-ocean entry (adapted from Mather and Harrison, 2006; Behnke and McNutt, 2014; and McNutt and Thomas, 2015)."@en ;
   skos:notation "GH0018" ;
   skos:prefLabel "Lightning (Volcanic Trigger)"@en ;
@@ -4401,7 +4401,7 @@ hip:GH0019
   dct:source "Baxter, P.J., R. Boyle, P. Cole, A. Neri, R. Spence and G. Zuccaro, 2005. The impacts of pyroclastic surges on buildings at the eruption of the Soufrière Hills volcano, Montserrat. Bulletin of Volcanology, 67:292-313. "@en ;
   dct:source "ISO, 2020. ISO/TS 17755-2:2020. Fire Safety – Statistical data collection – Part 2: Vocabulary. www.iso.org/standard/80067.html Accessed 18 October 2020."@en ;
   skos:altLabel "Urban conflagration."@en ;
-  skos:broader hip:Volcanogenic--Volcanoes-and-Geothermal- ;
+  skos:broader hip:Volcanogenic ;
   skos:definition "Urban fires are fire involving buildings or structures in cities or towns with potential to spread to adjoining structures. Triggers of urban fires are numerous, from human actions (e.g., knocking over a candle) and technological triggers (e.g., power surge overloading appliances), to natural triggers (e.g., wildland fires interacting with urban areas). Triggers from volcanic eruptions include lava flows, pyroclastic density currents, tephra, and ground shaking (adapted from Baxter et al., 2005 and ISO, 2020)."@en ;
   skos:notation "GH0019" ;
   skos:prefLabel "Urban Fire (During/Following Volcanic"@en ;
@@ -5464,8 +5464,8 @@ hip:MH0018
   dct:references "WMO, 2021a. Global Atmosphere Watch Programme. World Meteorological Organization (WMO). https://public.wmo.int/enprogrammes/global-atmosphere-watch-programme. Accessed 23 March 2021."@en ;
   dct:references "WMO, 2021b. Environment. World Meteorological Organization (WMO). https://public.wmo.int/en/our-mandate/focus-areasenvironment. Accessed 23 March 2021."@en ;
   dct:references "WMO, 2021c. Global Air Quality Forecasting and Information System (GAFIS). World Meteorological Organization (WMO). https://community.wmo.int/activity-areas/gaw/science-for-services/gafis. Accessed 23 March 2021."@en ;
-  dct:source "WMO, 1992. International Meteorological Vocabulary. WMO-No. 182. World Meteorological Organization (WMO). https://library.wmo.int/ doc_num.php?explnum_id=4712 Accessed 26 November 2019. "@en ;
   dct:source "UNEP, no date. Frequently Asked Questions on Air Pollution. International Day for Clean Air for blue skies, United Nations Environment Programme (UNEP). www.cleanairblueskies.org/did-you-know/frequently-askedquestions- air-pollution Accessed 11 November 2020."@en ;
+  dct:source "WMO, 1992. International Meteorological Vocabulary. WMO-No. 182. World Meteorological Organization (WMO). https://library.wmo.int/ doc_num.php?explnum_id=4712 Accessed 26 November 2019. "@en ;
   skos:broader hip:Lithometeors ;
   skos:definition "Polluted air is air containing dust, smoke, micro-organisms or gases different from those from which it would normally be composed (WMO, 1992). Alternative definition: Polluted air is air which contains gases and particles emitted to the atmosphere by a variety of human activities and natural sources, or formed in the atmosphere, that at critical levels have harmful effects on human health, animals, plants and ecosystems, or reduce visibility and corrode materials, buildings and cultural heritage sites (UNEP, no date)."@en ;
   skos:notation "MH0018" ;
@@ -5923,10 +5923,10 @@ hip:MH0041
   a hipo:HIP ;
   dct:references "Fernandez-Gimenez, M., B. Batjav and B. Baival, 2011. Understanding Resilience in Mongolian Pastoral Social-ecological Systems. www.bing.com/search?q=There+is+a+conventional+classification+of+dzud+types+based+on+in+terms+of+direct+f actors+contributing+to+conditions+that+prevent+animals+from+grazing+for+consecutive+days%2C+finally+resulting+in+thei r+starvation.+T%2C+these+include%3A&cvid=9e16de569cdc42ea95afd55c783565fd&FORM=ANAB01&PC=U531 Accessed 16 April 2021."@en ;
   dct:references "Murray, V., G. McBean, M. Bhatt, S. Borsch, T.S. Cheong, W.F. Erian, S. Llosa, F. Nadim, M. Nunez, R. Oyun, and A.G. Suarez, 2012. Case studies. In: Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation. A Special Report of Working Groups I and II of the Intergovernmental Panel on Climate Change (IPCC). Cambridge University Press, pp. 487-542. www.ipcc.ch/site/assets/uploads/2018/03/SREX-Chap9_FINAL-1.pdf Accessed 8 October 2020."@en ;
-  dct:source "Natsagdorj, L. and J. Dulamsuren, 2001. Some aspects of assessment of the dzud phenomena. Pap Meteorol Hydrol 23:3-18 [in Mongolian]. "@en ;
   dct:source "Nandintsetseg, B., M. Shinoda and B. Erdenetsetseg, 2017. Contributions of multiple climate hazards and overgrazing to the 2009/2010 winter disaster in Mongolia. Natural Hazards, 92:109- 126 "@en ;
-  dct:source "Nandintsetseg, B., M. Shinoda, Ch. Du and E. Munkhjargal, 2018a. Cold-season disasters on the Eurasian steppes: Climate-driven or man-made. Scientific Reports, 8:14769. "@en ;
   dct:source "Nandintsetseg, B., M. Shinoda and B. Erdenetsetseg, 2018b. Developing an early warning system of Dzud (cold-season disaster) in Mongolia. doi: 10.13140/RG.2.2.33661.72161"@en ;
+  dct:source "Nandintsetseg, B., M. Shinoda, Ch. Du and E. Munkhjargal, 2018a. Cold-season disasters on the Eurasian steppes: Climate-driven or man-made. Scientific Reports, 8:14769. "@en ;
+  dct:source "Natsagdorj, L. and J. Dulamsuren, 2001. Some aspects of assessment of the dzud phenomena. Pap Meteorol Hydrol 23:3-18 [in Mongolian]. "@en ;
   skos:altLabel "Blizzard"@en ;
   skos:altLabel "Cold surge."@en ;
   skos:altLabel "Winter storm"@en ;
@@ -5983,8 +5983,8 @@ hip:MH0044
   a hipo:HIP ;
   dct:references "AMS, 2012. Glossary of Meteorology: Freezing rain. American Meteorological Society (AMS). http://glossary.ametsoc.org/wikiFreezing_rain Accessed 27 November 2019."@en ;
   dct:references "Environment Canada, no date. Alerting Parameters Environment Canada uses for Issuing a Freezing rain warning. www.canada. ca/en/environment-climate-change/services/types-weather-forecasts-use/public/criteria-alerts.html#freezingRain "@en ;
-  dct:references "Lecomte, E.L., A.W. Pang and J.W. Russell, 1998. ICE STORM ’98. ICLR Research Paper Series – No.1. www.iclr.org/wp-contentuploads/PDFS/1998_ice_storm_english.pdf Accessed 2 November 2020"@en ;
   dct:references "Environment and Climate Change Canada, 2019. Winter Hazards. www.ec.gc.ca/meteo-weather/meteo-weather/default. asp?lang=En&n=46FBA88B-1#Freezing Rain and Ice Pellets Accessed 27 November 2019."@en ;
+  dct:references "Lecomte, E.L., A.W. Pang and J.W. Russell, 1998. ICE STORM ’98. ICLR Research Paper Series – No.1. www.iclr.org/wp-contentuploads/PDFS/1998_ice_storm_english.pdf Accessed 2 November 2020"@en ;
   dct:references "NOAA, no date. Warning Criteria. National Weather Service, National Oceanic and Atmospheric Administration (NOAA). www. weather.gov/car/Warning_Criteria"@en ;
   dct:references "UK Met Office, no date. Freezing rain. www.metoffice.gov.uk/weather/learn-about/weather/types-of-weather/rain/freezing-rain Accessed 2 November 2020."@en ;
   dct:source "WMO, 2017. International Cloud Atlas Manual on the Observation of Clouds and Other Meteors. WMO-No. 407. World Meteorological Organization (WMO). https://cloudatlas.wmo.int/en/ supercooled-rain.html Accessed 25 November 2019."@en ;
@@ -6267,9 +6267,9 @@ hip:MH0057
 hip:MH0058
   a hipo:HIP ;
   dct:references "Rappaport, E. (2014). Fatalities in the United States from Atlantic Tropical Cyclones: New Data and Interpretation. Accessible at: https://www.deepdyve.com/lp/american-meteorological-society/fatalities-in-the-united-states-from-atlantic-tropicalcyclones- new-0IJut2urZS. Accessed 13 May 2021."@en ;
+  dct:references "The Operational Plans of the five WMO Tropical Cyclone Programme regional bodies, and their associated glossaries are available here: https://community.wmo.int/tropical-cyclone-operational-plans World Meteorological Organization (WMO) Regional Association I - Tropical Cyclone Operational Plan for the South-West Indian Ocean, Tropical Cyclone Programme, report No. TCP-12, WMO-NO 1178 Typhoon Committee Operational Manual, Tropical Cyclone Programme, report No. TCP-23, WMO/TD No.196. Panel on Tropical cyclones Operational Plan for the Bay of Bengal and the Arabian Sea, report No. TCP-21, WMO/TD-No. 84 (WMO Regional Association IV – Hurricane Operational Plan for North America, Central America and the Caribbean. Tropical Cyclone Programme. WMO-No. 1163. WMO Regional Association V - Tropical Cyclone Operational Plan for the South Pacific and South-East Indian Ocean, Tropical Cyclone Programme, report No. TCP-24, WMO-NO 1181."@en ;
   dct:references "WHO, 2020. Tropical cyclones. World Health Organization (WHO). www.who.int/health-topics/tropical-cyclones#tab=tab_3 Accessed 7 October 2020."@en ;
   dct:references "WMO, 2021. Storm Surge. World Meteorological Organization (WMO). https://public.wmo.int/en/our-mandate/focus-areasnatural-hazards-and-disaster-risk-reduction/storm-surge https://public.wmo.int/en/our-mandate/focus-areas/natural-hazards-and-disaster-risk-reduction/tropical-cyclones "@en ;
-  dct:references "The Operational Plans of the five WMO Tropical Cyclone Programme regional bodies, and their associated glossaries are available here: https://community.wmo.int/tropical-cyclone-operational-plans World Meteorological Organization (WMO) Regional Association I - Tropical Cyclone Operational Plan for the South-West Indian Ocean, Tropical Cyclone Programme, report No. TCP-12, WMO-NO 1178 Typhoon Committee Operational Manual, Tropical Cyclone Programme, report No. TCP-23, WMO/TD No.196. Panel on Tropical cyclones Operational Plan for the Bay of Bengal and the Arabian Sea, report No. TCP-21, WMO/TD-No. 84 (WMO Regional Association IV – Hurricane Operational Plan for North America, Central America and the Caribbean. Tropical Cyclone Programme. WMO-No. 1163. WMO Regional Association V - Tropical Cyclone Operational Plan for the South Pacific and South-East Indian Ocean, Tropical Cyclone Programme, report No. TCP-24, WMO-NO 1181."@en ;
   dct:source "WMO, 2020. Tropical Cyclone Operational Plans. World Meteorological Organization (WM). https:// community.wmo.int/tropical-cyclone-operational-plans "@en ;
   dct:source "WMO, 2021. Tropical Cyclones. World Meteorological Organization (WM). https://public.wmo.int/ en/our-mandate/focus-areas/natural-hazards-and-disaster-risk-reduction/tropical-cyclones"@en ;
   rdfs:comment "Tropical cyclone is a generic term. However, once this weather phenomenon has reached a specific intensity (wind speed exceeding 117 km/h), depending on the region, it can be designated as a hurricane, typhoon, tropical cyclone, cyclonic storm (WMO, 2021)."@en ;
@@ -6818,7 +6818,7 @@ hip:TL0003
   skos:broader hip:CBRNE ;
   skos:definition "A substance or a material emitting, or related to the emission of, ionizing radiation (either in the form of electro-magnetic waves or particle radiation) is radioactive. Depending on the magnitude of exposure, the radioactive substance may become a hazard to human health; as such it is subject to regulatory control by national laws and national regulatory authorities. Radioactive material may also be hazard to animal health, other forms of life and the environment (IAEA, 2018)."@en ;
   skos:notation "TL0003" ;
-  skos:prefLabel "Explosive)"@en ;
+  skos:prefLabel "Radiation Agents"@en ;
   hipo:additional-description "Radioactive materials (natural and human-made) are widely used in industry, medicine and research but can also be used as radiation agents as part of Chemical, Biological, Radiological, Nuclear and Explosive (CBRNE) incidents. • Alpha-radiation: consists of heavy, positively charged particles emitted by atoms of elements such as uranium and radium. Alpha radiation cannot penetrate skin and can be stopped by a thin paper sheet. However, alpha-emitting radioactive material entering the body by breathing, eating, or drinking, can affect organs and tissues and cause biological damage (IAEA, no date a). • Beta-radiation: consists of electrons, is more penetrating than alpha-radiation and can pass through the skin surface. In general, a sheet of aluminium a few millimetres thick will stop beta-radiation (IAEA, no date a). • Gamma-rays: electromagnetic radiation similar to X-rays, light, and radio waves. Depending on their energy, gamma-rays can pass right through the human body, but not through a concrete wall or lead (IAEA, no date a). Metrics and numeric limits The magnitude of a source of alpha- or beta-radiation is given by its activity, measured in Curie (Ci) or Becquerel (Bq). 1 Bq corresponds to 1 radioactive decay/second. The impact of radiation on health is measured by the unit ‘Sievert’ symbolised as Sv. Translation of Sv in the units of Disability Adjusted Life Year (DALY) is possible but rarely done. For a radiological dispersal device, an initial ‘hot zone’ boundary should be established at ~1600 feet (500 m) in all directions from the point of dispersion until measurements are made. If it is known that the source used in the incident had an activity of <10,000 Ci (370 TBq), then the initial hot zone boundary can be established at a radius of ~800 feet (250 m). Decisions should not be based on the perceived wind direction, especially in an urban setting in which the wind field can be very complex. Projections with environmental models will not provide accurate predictions of consequences on a distance scale of ~1600 feet (500 m). The location of the hot zone boundary shall be adjusted as radiation measurements become available. This boundary definition is appropriate for both alpha-, beta- and gamma-emitting radionuclides (Musolino and Harper, 2006)."@en ;
   hipo:convention-treaty "The Code of Conduct on the Safety and Security of Radioactive Sources (the Code) was established to achieve and maintain a high level of safety and security of radioactive sources across the globe. The idea for the development of the Code was first discussed at an international conference in Dijon, France, in 1998 that addressed measures necessary for the safe and secure use of radioactive sources. The conference noted that many countries have weak radiation protection programmes and suggested that the establishment of an ‘international undertaking’ could ensure continuity in regulatory control. The Code was drafted over several meetings. Following the terrorist attacks on 11 September 2001 in the USA, the provisions in the text addressing the security of radioactive sources were enhanced. In September 2003, the Code was approved, and the International Atomic Energy Agency (IAEA) General Conference invited States to make a political commitment to work towards the principles therein and currently 119 States have done so (IAEA, no date b)."@en ;
   hipo:convention-treaty "The IAEA Preventive Measures for Nuclear and Other Radioactive Material out of Regulatory Control elaborates upon the recommendations given in IAEA Nuclear Security Series No. 15, Nuclear Security Recommendations on Nuclear and Other Radioactive Material out of Regulatory Control, in relation to preventative measures (IAEA, 2019). It serves as a guidance document for Member States interested in strengthening their nuclear security regime as it relates to nuclear and other radioactive material out of regulatory control and in improving their capabilities."@en ;
@@ -6836,7 +6836,7 @@ hip:TL0004
   skos:broader hip:CBRNE ;
   skos:definition "Nuclear agents are derived from neutron radiation (n) which is a neutron emitted by an unstable nucleus, in particular during atomic fission and nuclear fusion. Apart from a component in cosmic rays, neutrons are usually produced artificially. Because they are electrically neutral particles, neutrons can be very penetrating and when they interact with matter or tissue, they cause the emission of beta- and gamma-radiation. Neutron radiation therefore requires heavy shielding to reduce exposure (IAEA, 2004)."@en ;
   skos:notation "TL0004" ;
-  skos:prefLabel "Explosive)"@en ;
+  skos:prefLabel "Nuclear agents"@en ;
   hipo:additional-description "Dispersal of neutron radiation through nuclear weapons, including improvised nuclear devices (IND) results in a nuclear yield unlike radiation dispersal devices (RDD). This nuclear yield is measured in kilotons (kT) and one unit has the explosive energy equivalent to a thousand tons of TNT. Nuclear detonations are capable of producing impacts far surpassing that of any conventional explosive (IAEA, 2004). A significant effect of a nuclear explosion is the blast generated. The blast originates from the rapidly expanding fireball of the explosion, which generates a pressure wave moving rapidly away from the point of detonation. Initially, near the point of detonation (also referred to as ‘ground zero’) for a surface nuclear burst, the overpressure is extremely high. With increasing distance from ground zero, the overpressure and speed of the blast wave dissipate to a point at which they cease to be destructive. In the case of a nuclear terrorism incident, the thermal pulse can cause skin burns on those people within a few miles of the incident who have a line-of-sight view of the fireball (IAEA, 2004). There will be many hazards after a nuclear terrorism incident, including widespread fires and the presence of toxic materials, but one of the most significant in terms of human health for a ground level or near ground level nuclear incident, will be the residual radiation from radioactive fallout and neutron activation of materials. Although the radiation levels are most hazardous in the first few hours, some areas within a few miles downwind may still be hazardous days after the incident. Rapid identification of these fallout areas for implementation of protective measures is one of the highest priorities for emergency management and public health authorities (IAEA, 2004). Metrics and numeric limits Identifying the dangerous-radiation zone (exposure rate ≥10 R h–1 , ∼0.1 Gy h–1 air-kerma rate) will have critical implications on response activities in or near fallout areas. The dangerous-radiation zone is an area where large doses could be delivered to emergency responders in a short period of time. The relation of dose and health effect is mainly established via the survivors of the bombs of Hiroshima and Nagasaki, assessed in 1950 and continued by the US Atomic Bomb Causality Commission (ABCC) and its successor, the USA–Japan binational Radiation Effects Research Foundation (RERF) (NCRP, 2010). After a ground-level nuclear terrorism incident, the dangerous-radiation zone will be created by fallout that is deposited in the first few hours and will have boundaries that may extend for 20 miles (~32 km), depending on the yield and weather. The dangerous-radiation zone will rapidly shrink as the fallout decays and may only be a mile or two long after a few days. As an example, an emergency responder working in an area with an initial 10 R h–1 exposure rate (~0.1 Gy h–1 air-kerma rate) 4 hours after the nuclear terrorism incident will receive ~25 R (~0.25 Gy air kerma) in a 4-hour work period (NCRP, 2010)."@en ;
   hipo:convention-treaty "Effective national and global response arrangements and capabilities are essential to minimise the impacts from nuclear and radiological incidents and emergencies. The International Atomic Energy Agency (IAEA) maintains the international Emergency Preparedness and Response (EPR) framework, which is based on international legal instruments (IAEA, 2019). As part of these activities, the IAEA develops safety standards, guidelines and technical tools; assists Member States in building the capacity for emergency response; and maintains the IAEA Incident and Emergency System to efficiently implement its role in response to nuclear or radiological incidents and emergencies, regardless of whether they arise from accident, negligence or deliberate act."@en ;
   hipo:convention-treaty "The IAEA Preventive Measures for Nuclear and Other Radioactive Material out of Regulatory Control elaborates upon the recommendations given in IAEA Nuclear Security Series No. 15, Nuclear Security Recommendations on Nuclear and Other Radioactive Material out of Regulatory Control, in relation to preventative measures (IAEA, 2019). It serves as a guidance document for Member States interested in strengthening their nuclear security regime as it relates to nuclear and other radioactive material out of regulatory control and in improving their capabilities."@en ;
@@ -6933,8 +6933,8 @@ hip:TL0008
   dct:references "Bellini, C. and M.G. Calevo, 2019. Genoa, Italy bridge collapse: effects on neonatal emergency transport service. Prehospital and Disaster Medicine, 34:458-459."@en ;
   dct:references "Choudhury, J. and A. Hasnat, 2015. Bridge collapses around the world: Causes and mechanisms. IAPSE-JSCE Joint Conference on Advances in Bridge Engineering – III, 21-22 August 2015,"@en ;
   dct:references "Dhaka, Bangladesh. Tan, J.-S., K. Elbaz, Z.-F. Wang, J. Shen and J. Chen, 2020. Lessons learnt from bridge collapse: a view of sustainable management. Sustainability, 12:1205. 10.3390/su12031205 "@en ;
-  dct:references "UNDESA, no date. Sustainable Development Goals. United Nations Department of Economic and Social Affairs (UNDESA). https://sdgs.un.org/goals Accessed 21 April 2021."@en ;
   dct:references "UNDESA, 2014. Prototype Global Sustainable Development Report. Chapter 2. United Nations Department of Economic and Social Affairs (UNDESA). https://sdgs.un.org/publications/prototype-global-sustainable-development-report-17802 Accessed 21 April 2021."@en ;
+  dct:references "UNDESA, no date. Sustainable Development Goals. United Nations Department of Economic and Social Affairs (UNDESA). https://sdgs.un.org/goals Accessed 21 April 2021."@en ;
   dct:references "UNDRR, 2015. Sendai Framework for Disaster Risk Reduction 2015-2030. United Nations office for Disaster Risk Reduction (UNDRR). www.preventionweb.net/files/43291_sendaiframeworkfordrren.pdf Accessed 6 October 2020."@en ;
   dct:references "US Department of Transportation, 2020. Bridges and Structures: National Bridge Inventory. www.fhwa.dot.gov/bridge/nbi.cfm Accessed 8 November 2020."@en ;
   dct:references "Wardhana, K. and F.C. Hadipriono, 2003. Analysis of recent bridge failures in the United States. Journal of performance of constructed facilities, 17:144-150."@en ;
@@ -7135,8 +7135,8 @@ hip:TL0015
   dct:references "WHO, 2000b. Operation and maintenance of rural water supply and sanitation systems A training package for managers and planners. World Health Organization (WHO). www.who.int/water_sanitation_health/publications/omruralsystems/en Accessed 10 November 2020."@en ;
   dct:references "WHO, 2008. Global costs of attaining the Millennium Development Goal for water supply and sanitation World Health Organization (WHO). www.who.int/water_sanitation_health/publications/costs-of-attaining-mdg-10/en Accessed 10 November 2020."@en ;
   dct:references "WHO, 2009. Vision 2030: The resilience of water supply and sanitation in the face of climate change. Summary and policy implications. World Health Organization (WHO). www.who.int/water_sanitation_health/publications/9789241598422/en Accessed 10 November 2020."@en ;
-  dct:source "UN-Water, no date. Water Scarcity. www.unwater.org/water-facts/scarcity Accessed 10 November 2020 Franchin, P. and F. Cavalieri, 2013. Seismic vulnerability analysis of a complex interconnected civil infrastructure. In: Handbook of Seismic Risk Analysis and Management of Civil Infrastructure Systems. Woodhead Publishing Series in Civil and Structural Engineering, pp. 465-513 514e. https://doi.org/10.1533/9780857098986.4.465 "@en ;
   dct:source "Jain, R., M.K. Camarillo and W.T. Stringfellow, 2014. Drinking water security for engineers, planners, and managers: Integrated water security series. Butterworth-Heinemann."@en ;
+  dct:source "UN-Water, no date. Water Scarcity. www.unwater.org/water-facts/scarcity Accessed 10 November 2020 Franchin, P. and F. Cavalieri, 2013. Seismic vulnerability analysis of a complex interconnected civil infrastructure. In: Handbook of Seismic Risk Analysis and Management of Civil Infrastructure Systems. Woodhead Publishing Series in Civil and Structural Engineering, pp. 465-513 514e. https://doi.org/10.1533/9780857098986.4.465 "@en ;
   skos:altLabel "Water network failure."@en ;
   skos:broader hip:Infrastructure-Failure ;
   skos:definition "Water supply failure is the physical shortage or scarcity in access of water supply due to the failure of institutions to ensure a regular supply or due to a lack of adequate infrastructure (adapted from UN-Water, no date). Alternative definition: Water supply systems are networks whose edges and nodes are pressure pipes and either pipe junctions, water sources or end-users. Water supply systems are designed to protect the customer from natural biological contamination, and the same systems have potential efficacy against deliberate biological and chemical contamination (adapted from Franchin and Cavalieri, 2013; and Jain et al., 2014)."@en ;
@@ -7747,8 +7747,8 @@ hip:TL0039
   dct:references "UNEP, no date. Tackling marine debris. United Nations Environment Programme (UNEP). www.unenvironment.org/regionsnorth-america/regional-initiatives/tackling-marine-debris Accessed 15 November 2019."@en ;
   dct:references "United Nations, 2019. The Future Is Now: Science for achieving sustainable development. https://sustainabledevelopment. un.org/content/documents/24797GSDR_report_2019.pdf Accessed on 15 November 2019."@en ;
   dct:references "WHO, 2019. Microplastics in Drinking-Water. World Health Organization (WHO). https://apps.who.int/iris/bitstream/hand le/10665/326499/9789241516198-eng.pdf?ua=1 Accessed 5 October 2020."@en ;
-  dct:source "Basel Convention, 1989. Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal (1989). www.basel.int/TheConvention/Overview/ TextoftheConvention/tabid/1275/Default.aspx Accessed 7 November 2019. "@en ;
   dct:source "Basel Convention Secretariat, 2019. Basel Convention. Plastic Waste. Overview. www.basel.int/ implementation/plasticwastes/overview/tabid/6068/default.aspx Accessed 5 October 2020."@en ;
+  dct:source "Basel Convention, 1989. Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal (1989). www.basel.int/TheConvention/Overview/ TextoftheConvention/tabid/1275/Default.aspx Accessed 7 November 2019. "@en ;
   skos:altLabel "Plastic debris"@en ;
   skos:altLabel "Plastic litter"@en ;
   skos:altLabel "Plastic marine litter"@en ;
@@ -7773,8 +7773,8 @@ hip:TL0040
   dct:references "UNEP, 2017. UN Environment contribution to Concept Papers for Partnership Dialogues of The Ocean Conference. United Nations Environment Programme (UNEP). https://sustainabledevelopment.un.org/content/documents/13476UN%20Environment_ concept%20paper_partnership%20dialogues%20rev.pdf#:~:text=Marine%20debris%20is%20present%20in%20all%20 marine%20habitats.,18,000%20pieces%20per%20square%20kilometre%20(WOA-1,%202016,%20Chapter Accessed 28 February 2021"@en ;
   dct:references "United Nations, 2017. The First Global Integrated Marine Assessment: World Ocean Assessment I. Cambridge University Press. www.un.org/Depts/los/global_reporting/WOA_RPROC/WOACompilation.pdf Accessed 14 October 2020."@en ;
   dct:references "Wang, J., K. Kiho, D. Ofiara, Y. Zhao, A. Bera, R. Lohmann and M.C. Baker, 2016. First Global Integrated Marine Assessment: World Ocean Assessment I. www.un.org/Depts/los/global_reporting/WOA_RPROC/Chapter_25.pdf Accessed 28 February 2021"@en ;
-  dct:source "UN Environment, no date. Marine Litter. www.unenvironment.org/explore-topics/oceans-seas/ what-we-do/working-regional-seas/marine-litter Accessed 14 October 2020. "@en ;
   dct:source "NOAA, no date. National Ocean Service. What are microplastics? National Oceanic and Atmospheric Administration (NOAA). https://oceanservice.noaa.gov/facts/microplastics.html Accessed 14 October 2020."@en ;
+  dct:source "UN Environment, no date. Marine Litter. www.unenvironment.org/explore-topics/oceans-seas/ what-we-do/working-regional-seas/marine-litter Accessed 14 October 2020. "@en ;
   skos:altLabel "Microplastics"@en ;
   skos:altLabel "Nanoparticles."@en ;
   skos:broader hip:Marine ;
@@ -8125,11 +8125,6 @@ hip:Transportation
 .
 hip:Volcanogenic
   a hipo:Cluster ;
-  skos:narrower hip:GH0020 ;
-  skos:prefLabel "Volcanogenic" ;
-.
-hip:Volcanogenic--Volcanoes-and-Geothermal-
-  a hipo:Cluster ;
   skos:narrower hip:GH0009 ;
   skos:narrower hip:GH0010 ;
   skos:narrower hip:GH0011 ;
@@ -8141,7 +8136,8 @@ hip:Volcanogenic--Volcanoes-and-Geothermal-
   skos:narrower hip:GH0017 ;
   skos:narrower hip:GH0018 ;
   skos:narrower hip:GH0019 ;
-  skos:prefLabel "Volcanogenic (Volcanoes and Geothermal)" ;
+  skos:narrower hip:GH0020 ;
+  skos:prefLabel "Volcanogenic" ;
 .
 hip:Waste
   a hipo:Cluster ;
